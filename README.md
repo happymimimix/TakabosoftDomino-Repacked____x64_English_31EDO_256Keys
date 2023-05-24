@@ -1,2 +1,2 @@
 # Domino-Customized
-My own customized famous japanese midi editor: Domino
+My own customized version of the famous japanese midi editor: Domino
