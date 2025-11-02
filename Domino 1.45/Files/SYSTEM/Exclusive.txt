@@ -1,0 +1,25 @@
+Insert data separated by spaces.
+
+Data are recognized as hexadecimal if "0x" is attached at the start like "0xf5" or if "h" is attached at the end like "f5h".
+
+Values like "10" or "20" are recognized as decimal.
+
+If multiple values are enclosed within brackets "[" and "]", the checksum between them is automatically inserted to the location of "]".
+
+Anything in between "(" and ")" is ignored.
+
+Characters enclosed by double quotation marks are recognized as strings.
+A quotation mark within a string data should be presented as [\"].
+A backslash within a string data should be presented as [\\].
+
+Anything in between "<" and ">" is recognized as comments.
+Always separate comments from other strings with spaces.
+Example: f0h 41h 10h 45h 12h [ 10h 0 0 <Comment goes here> "test" ] f7h
+
+Operations addition [+] and subtraction [-] are supported.
+Valid: f0h 20+30 10h . . .
+Invalid: f0h 20+30-50 10h . . .
+
+Example:
+Shows a string to the GS Sound Source display:
+f0h 41h 10h 45h 12h [ 10h 0 0 "test" ] f7h
