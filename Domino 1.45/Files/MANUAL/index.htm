@@ -1,0 +1,114 @@
+<html>
+<head>
+<META HTTP-EQUIV = "Content-type" CONTENT = "text / html; charset = Shift_JIS">
+<title> MIDI music editing software "Domino" owner's manual</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+
+<body>
+<h1> MIDI music editing software "Domino" owner's manual </h1>
+<div class=w>
+This document is Domino's instruction manual. I think that you should read in order from the top for the time being. <br>
+Since it is a document to explain how to use the software to the last, I do not write MIDI specifications, how to compose, etc.
+For those parts, please study at other websites. <br>
+<br>
+In addition, it is difficult to explain all the functions, so it is a bit overwhelming, but if there are any unclear points etc, please ask with a bulletin board etc. <br>
+<br>
+</div>
+<h3> Table of Contents </h3>
+<div class = w>
+<ul style = "margin - left: 20px;">
+<li> <a href="install.htm"> Introduction</a>
+
+<ul>
+<li><a href="install.htm#dousa"> System Requirements</a>
+<li><a href="install.htm#kyodaku"> Copyright indication / license agreement</a>
+<li><a href="install.htm#inst"> Installation method</a>
+<li><a href="install.htm#verup"> How to install when upgrading</a>
+<li><a href="install.htm#uninst"> How to uninstall</a>
+<li><a href="install.htm#port"> Port Settings [Important]</a>
+</ ul>
+
+<li> <a href="use.htm"> Usage </a>
+
+<ul>
+<li><a href="use.htm#areaname"> Name of each area</a>
+<li><a href="use.htm#note_preview"> How to audition notes</a>
+<li><a href="use.htm#note_put"> To place notes</a>
+<li><a href="use.htm#play"> How to play</a>
+<li><a href="use.htm#play2"> How to play from the middle</a>
+<li><a href="use.htm#gate"> Changing the length (Gate) of the note you placed</a>
+<li><a href="use.htm#velo"> How do I change the strength (Velocity) of the note I placed?</a>
+<li><a href="use.htm#note_move"> How do I move a note I placed?</a>
+<li><a href="use.htm#undo"> Restoring edited content</a>
+<li><a href="use.htm#snap"> How do I adjust the snapshot when I put it?</a>
+<li><a href="use.htm#note_del"> How do I delete a note I placed?</a>
+<li><a href="use.htm#note_def"> Changing the Initial Value of Gate & Velocity for Notes</a>
+<li><a href="use.htm#dropper"> Changing the initial value of Gate & Velocity based on other notes</a>
+<li><a href="use.htm#sel_move"> Moving multiple notes</a>
+<li><a href="use.htm#sel_del"> How do I delete multiple notes?</a>
+<li><a href="use.htm#sel_copy"> How to duplicate multiple notes (copy & paste)</a>
+<li><a href="use.htm#sel_copy_ctrl"> How to duplicate multiple notes (move duplication) </a>
+<li><a href="use.htm#sel_velo"> To change Velocity for some notes</a>
+<li><a href="use.htm#batch"> How do I bulk change the Gate and Velocity of multiple notes?</a>
+<li><a href="use.htm#slice"> How to divide multiple notes at specified positions</a>
+<li><a href="use.htm#stroke"> To gradually shift the timing of multiple notes in the same position (stroke)</a>
+<li><a href="use.htm#sel_filter"> To further narrow down selected notes</a>
+<li><a href="use.htm#sel_oct"> Changing the Octave of Multiple Notes</a>
+<li><a href="use.htm#sel_pen"> Easily switch between pen tool and selection tool</a>
+<li><a href="use.htm#pc"> Changing the Instrument of a Part</a>
+<li><a href="use.htm#volume"> Changing Part Volume and Pan Pot</a>
+<li><a href="use.htm#volume2"> How do I change the part's volume in the middle of a song?</a>
+<li><a href="use.htm#pbcurve"> Changing Pitch Bend and Expression Continuously (Mouse Version)</a>
+<li><a href="use.htm#pbcurve_sel"> Changing Pitch Bend and Expression Continuously (Selection Area)</a>
+<li><a href="use.htm#pbcurve_copy"> How do I copy pitch bend curves, etc.</a>
+<li><a href="use.htm#track_cur"> How do I change the track to edit?</a>
+<li><a href="use.htm#onionskin"> How to display notes from other tracks at the same time (onion skin)</a>
+<li><a href="use.htm#tempo"> How do I change the tempo?</a>
+<li><a href="use.htm#rhythm"> How do I edit a rhythm track?</a>
+<li><a href="use.htm#ryhthm_velo"> To change Velocity for a specific instrument on a rhythm track</a>
+<li><a href="use.htm#ryhthm_trset"> To convert an existing track to a rhythm track</a>
+<li><a href="use.htm#tr_name"> How do I name a track?</a>
+<li><a href="use.htm#tr_add"> How do I add a track?</a>
+<li><a href="use.htm#tr_add_port"> How do I add tracks for one port at once?</a>
+<li><a href="use.htm#tr_del"> How do I delete a track?</a>
+<li><a href="use.htm#tr_move"> Sorting tracks</a>
+<li><a href="use.htm#mtr_edit"> Deleting and duplicating the contents of multiple tracks at once</a>
+<li><a href="use.htm#track_solo"> To play only specific tracks</a>
+<li><a href="use.htm#mark"> Setting Marks</a>
+<li><a href="use.htm#ts"> How do I set the time signature?</a>
+<li><a href="use.htm#title"> How to set song titles etc.</a>
+<li><a href="use.htm#comment"> How do I insert a comment event?</a>
+<li><a href="use.htm#exc"> How do I insert an exclusive event?</a>
+<li><a href="use.htm#cc"> How do I insert a control change event?</a>
+<li><a href="use.htm#cc2"> How do I insert more than one control change macro at a time (eg EFX)</a>
+<li><a href="use.htm#loop"> Looping </a>
+<li><a href="use.htm#sync"> To match the performance position and MIDI sound generator state</a>
+<li><a href="use.htm#param"> How do I use variables?</a>
+<li><a href="use.htm#rtrec"> To record in real time</a>
+<li><a href="use.htm#strec"> To step recording</a>
+<li><a href="use.htm#sysex_rec"> How do I receive an exclusive?</a>
+<li><a href="use.htm#save"> Save it</a>
+<li><a href="use.htm#open"> How do I import saved files?</a>
+<li><a href="use.htm#eot"> How do I adjust the end position of a song?</a>
+<li><a href="use.htm#smf"> Export as a mid file</a>
+<li><a href="use.htm#backup"> How do I use the backup function?</a>
+<li><a href="use.htm#key_custom"> Customizing shortcut keys</a>
+<li><a href="use.htm#tb_custom"> How do I customize the toolbar?</a>
+<li><a href="use.htm#mouse_custom"> How do I customize mouse actions?</a>
+<li><a href="use.htm#curve_custom"> How do I customize curves and lines?</a>
+</ul>
+
+<li><a href="module.htm">Specification of sound source definition file</a>
+<li><a href="other.htm">other</a>
+<ul>
+<li><a href="other.htm#bug"> About defects</a>
+<li><a href="other.htm#request">About your request</a>
+<li><a href="other.htm#thanx">thanks </a>
+<li><a href="other.htm#faq">FAQ</a>
+</ul>
+
+</ul>
+</div>
+</body>
+</html>

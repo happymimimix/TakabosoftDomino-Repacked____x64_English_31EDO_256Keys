@@ -1,0 +1,707 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=Shift_JIS">
+<title>Specification of sound source definition file</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style TYPE="text/css">
+<!--
+div.src {
+font-size: 80%;
+padding: 3px 3px 3px 3px;
+margin: 5 px 0 px 5 px 0 px;
+border: 1 px solid#30 bb 17;
+background-color:#e4fce4;
+color:#074107;
+line-height: 110%;
+}
+pre {
+margin: 0 px 0 px;
+}
+table {
+border-collapse: collapse;
+border: 1px solid#0a5ca0;
+}
+td {
+border: 1 px solid#888888;
+padding: 3px 3px 2px 3px;
+}
+th {
+border: 1 px solid#555555;
+background-color:#e1f0ff;
+padding: 3px 3px 2px 3px;
+white-space: nowrap;
+}
+->
+</style>
+</head>
+
+<body>
+<h1>Specification of sound source definition file</h 1>
+
+<h3><a name=" gaiyou">Overview</a></h3>
+<div class=w>
+The sound source definition file is a file that defines the sound name of the sound source and various setting methods.<br>
+Domino manipulates the sound source based on this definition file.<br>
+<br>
+The sound source definition file is stored in the "Module" folder located at the same position as Domino.exe.<br>
+If you create your own sound source definition file, or if you receive it from others, please create/copy it in this folder.<br>
+<br>
+For each sound source, one file is created for the sound source definition file.<br>
+(It is not usual to define multiple sound sources with one file.)<br>
+<br>
+</div>
+
+<h3><a name="struct">main structure</a></h3>
+<div class=w>
+The sound source definition file is described in XML (Extensible Markup Language) format.<br>
+(We use tag like HTML.)<br>
+<br>
+The main structure of the definition file is as follows.<br>
+<div class=src>
+<pre>
+&lt;? xml version="1.0" encoding="Shift_JIS"?&gt;
+
+&lt; ModuleData (<a href="#ModuleData">Writing basic information on sound source</a>)&gt;
+(<a href="#option">Describe options</a>)
+&lt; InstrumentList&gt;
+(<a href="#InstrumentList">Writing tone color information</a>)
+&lt;/InstrumentList&gt;
+&lt; DrumSetList&gt;
+(<a href="#DrumSetList">Describe drum set information</a>)
+&lt;/DrumSetList&gt;
+&lt; ControlChangeMacroList&gt;
+(<a href="#ControlChangeMacroList">Write control change macro information</a>)
+&lt;/ControlChangeMacroList&gt;
+&lt; TemplateList&gt;
+(<a href="#TemplateList">Write template information</a>)
+&lt;/TemplateList&gt;
+&lt; DefaultData&gt;
+(<a href="#DefaultData">Write default data information</a>)
+&lt;/DefaultData&gt;
+&lt;/ModuleData&gt;
+</pre>
+</div>
+(You can put tabs, blank lines, etc. freely.)<br>
+<br>
+The rest is the definition file if you write the part written in parentheses.<br>
+I will explain each part.<br>
+<br>
+
+</div>
+
+<h3><a name="ModuleData">Basic information of sound source</a></h3>
+<div class=w>
+Describe the basic information of the sound source and definition file as an attribute of the ModuleData tag.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+FileCreator="Takabo Soft" FileVersion="1.00" WebSite="http://takabosoft.com/"&lt; ModuleData Name="SC-8850" Folder="Roland" Priority="100"
+</pre>
+</div>
+<br>
+The attributes of the ModuleData tag are as follows.<br>
+(Attribute names and tag names are not case sensitive, and the order of attributes is free.)<br>
+<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the sound source name.</td></tr>
+<tr><td>Folder</td><td></td><td>On the screen when choosing a sound source on Domino, it enters the folder specified here.</td></tr>
+<tr><td>Priority</td><td>100</td><td>Specify the priority (order) within the same folder. The smaller the value, the earliest it is.</td></tr>
+<tr><td>FileCreator</td><td></td><td>Specify the creator name of the definition file.</td></tr>
+<tr><td>FileVersion</td><td></td><td>Specify the version of the definition file. It is a good idea to raise the version number if you modify the definition file.</td></tr>
+<tr><td>WebSite</td><td></td><td>Specify the distribution site or the homepage of the definition file.</td></tr>
+</table>
+<br>
+The creator name and version information of the definition file can be checked from the [sound source definition file] information on the [Help] menu.
+</div>
+
+<h3><a name="option">Options</a></h3>
+<div class=w>
+Several options can be specified as elements of the ModuleData tag.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; RhythmTrackDefault Gate="1"/&gt;
+&lt; ExclusiveEventDefault Data="f 0 h 41 h 10 h 42 h f 7 h"/&gt;
+&lt; ProgramChangeEventPropertyDlg AutoPreviewDelay="0"/&gt;
+&lt; ControlChangeEventDefault ID="0"/&gt;
+</pre>
+</div>
+<br>
+<dl>
+<dt>RhythmTrackDefault Tag</dt>
+<dd>With the Gate attribute, specify the gate value of the note in the rhythm track.</dd>
+<dt>ExclusiveEventDefault tag</dt>
+<dd>Data attribute specifies the default data of exclusive event.</dd>
+<dt>ProgramChangeEventPropertyDlg tag</dt>
+<dd>AutoPreviewDelay attribute specifies the delay time (in milliseconds, default is 0) until automatic preview on the Program Change Event Properties screen.<br>Depending on the MIDI device, there is something that takes time to actually change the tone from sending a program change. In that case, if you specify this delay time, the correct tone will be sounded during automatic preview.</dd>
+<dt>ControlChangeEventDefault Tag</dt>
+<dd>ID attribute, specify the default ID when CC event is inserted.</dd>
+</dl>
+According to the rule of XML, there is no need to close the tag (it completes with only one tag)
+Be sure to include a space and a slash at the end of the tag.<br>
+</div>
+
+<h3><a name="InstrumentList">Tone color information</a></h3>
+<div class=w>
+Tone color information has three levels, [Map], [PC], and [Bank].<br>
+Even if there is no bank in the sound source itself, one bank is required for each PC.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; Map Name="55 Map"&gt;
+&lt; PC Name="Piano 1" PC="1"&gt;
+&lt; Bank Name="Piano 1" LSB="1" MSB="0"/&gt;
+&lt; Bank Name="Piano 1 w" LSB="1" MSB="8"/&gt;
+&lt; Bank Name="Piano 1 d" LSB="1" MSB="16"/&gt;
+&lt; Bank Name="Piano 2" LSB="1" MSB="126"/&gt;
+&lt; Bank Name="Acou Piano 1" LSB="1" MSB="127"/&gt;
+&lt;/PC&gt;
+&lt; PC Name="Piano 2" PC="2"&gt;
+&lt; Bank Name="Piano 2" LSB="1" MSB="0"/&gt;
+&lt; Bank Name="Piano 2 w" LSB="1" MSB="8"/&gt;
+&lt; Bank Name="Piano 2" LSB="1" MSB="126"/&gt;
+&lt; Bank Name="Acou Piano 2" LSB="1" MSB="127"/&gt;
+&lt;/PC&gt;
+&lt;/Map&gt;
+</pre>
+</div>
+
+<h4>Map tag</h4>
+The Map tag defines the map.<br>
+Multiple map tags can be defined.<br>
+The Map tag can have multiple PC tags as elements.<br>
+<br>
+Attributes of the Map tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the map name.</td></tr>
+</table>
+
+<h4>PC tag</h4>
+PC tag defines PC information.<br>
+Multiple PC tags can be defined (128 definitions are not required).<br>
+A PC tag can have multiple Bank tags as elements.<br>
+<br>
+Attributes of the PC tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the PC name (instrument name).</td></tr>
+<tr><td>PC</td><td>Required</td><td>Specify the PC number in the range from 1 to 128.</td></tr>
+</table>
+
+<h4>Bank tag</h4>
+Bank tag defines bank information.<br>
+Multiple Bank tags can be defined (one bank is required per PC).<br>
+<br>
+Attributes of the Bank tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the bank name (instrument name).</td></tr>
+<tr><td>LSB</td><td></td><td>Specify the value to be sent as Bank Select LSB. If omitted, or 255 is specified, it will not be transmitted.</td></tr>
+<tr><td>MSB</td><td></td><td>Bank Select Specify the value to be sent as MSB. If omitted, or 255 is specified, it will not be transmitted.</td></tr>
+</table>
+
+</dl>
+
+</div>
+
+<h3><a name="DrumSetList">Drum set information</a></h3>
+<div class=w>
+The drum set information is almost the same as "<a href="#InstrumentList">sound color information</a>", but you can define multiple Tone tags as elements of the Bank tag.<br>
+<br>Example)
+<br>
+<div class=src>
+<pre>
+&lt; Map Name="55 Map"&gt;
+&lt; PC Name="STANDARD" PC="1"&gt;
+&lt; Bank Name="STANDARD" LSB="1" MSB="0"&??gt;
+&lt; Tone Name="High Q" Key="27"/&gt;
+&lt; Tone Name="Slap" Key="28"/&gt;
+&lt; Tone Name="Scr. Push" Key="29"/&gt;
+&lt; Tone Name="Scr. Pull" Key="30"/&gt;
+&lt; Tone Name="Sticks" Key="31"/&gt;
+&lt; Tone Name="Sq.Click" Key="32"/&gt;
+&lt; Tone Name="Mt.Click" Key="33"/&gt;
+&lt; Tone Name="Mt. Bell" Key="34"/&gt;
+&lt; Tone Name="Kick 2" Key="35"/&gt;
+&lt; Tone Name="Kick 1" Key="36"/&gt;
+(Omitted)
+&lt;/Bank&gt;
+&lt;/PC&gt;
+&lt;/Map&gt;
+</pre>
+</div>
+
+<h4>Tone tag</h4>
+The Tone tag defines the instrument name of each key of the drum set defined by the Bank tag.<br>
+Multiple Tone tags can be defined (optional).<br>
+<br>
+Attributes of the Tone tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify instrument name.</td></tr>
+<tr><td>Key</td><td>Required</td><td>Specify the scale (note number) from 0 to 127.</td></tr>
+</table>
+
+</div>
+
+<h3><a name="ControlChangeMacroList">Control change macro information</a></h3>
+<div class=w>
+The Control Change macro function is a function that pseudo-extend the Control Change function.<br>
+By defining macros, users will be able to make various settings with the same feeling as Control Change.<br>
+We define such macro information here.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; Folder Name="Sample&gt;
+&lt; CCM ID="1" Name="PitchBend" Color="#0fa 806" Sync="Last"&gt;
+&lt; Value Min="- 8192" Max="8191" Offset="8192"/&gt;
+&lt; Memo&gt; Changes the pitch.&lt;/Memo&gt;
+&lt; Data&gt; @ PB#VH#VL&lt;/Data&gt;
+&lt; CCM&gt;
+In case
+&lt; CCM ID="161" Name="Dr: Level"&gt;
+&lt; Value/&gt;
+&lt; Gate Type="Key"/&gt;
+&lt; Memo&gt;&lt;/Memo&gt;
+&lt; Data&gt; @ NRPN 1AH#GL#VL#NONE&lt;/Data&gt;
+&lt; CCM&gt;
+
+&lt; CCM ID="259" Name="Part Mode"&gt;
+&lt; Value Max="2"&gt;
+&lt; Entry Label="Normal" Value="0"/&gt;
+&lt; Entry Label="Drum 1" Value="1"/&gt;
+&lt; Entry Label="Drum 2" Value="2"/&gt;
+&lt;/Value&gt;
+<Memo>Set whether it is a normal instrument part or a drum set part.&lt;/Memo&gt;
+&lt; Data&gt; @ SYSEX F 0 H 41 H 10 H 42 H 12 H [40 H#1 RCH 15 H#V L] F 7 H&lt;/Data&
+&lt; CCM&gt;
+
+&lt; CCM ID="500" Name="TableTest" Color="#0fa 806"&gt;
+&lt; Value Min="0" Max="3" TableID="1"/&gt;
+&lt; Memo&gt; Table reference sample.&lt;/Memo&gt;
+&lt; Data&gt; @ SYSEX (abbreviation)&lt;/Data&gt;
+&lt; CCM&gt;
+
+&lt; CCMLink ID="500" Value="1"/&gt;
+&lt;/Folder&gt;
+
+&lt; Table ID="1"&gt;
+&lt; Entry Label="0 ms" Value="0"/&gt;
+&lt; Entry Label="0.1 ms" Value="1"/&gt;
+&lt; Entry Label="0.2 ms" Value="2"/&gt;
+&lt; Entry Label="0.3 ms" Value="3"/&gt;
+&lt;/Table&gt;
+</pre>
+</div>
+
+<h4>Folder tag</h4>
+Each CCM tag can create a folder freely and can enter it.<br>
+By doing so, you can make it easier for users to find the desired macro.<br>
+The Folder tag defines that folder (not necessary).<br>
+The Folder tag can have multiple CCM tags, Folder tags as elements (If there are none, folders are not displayed ^^;)<br>
+<br>
+Attributes of the Folder tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the folder name.</td></tr>
+<tr><td>ID</td><td>-1</td><td>If it is necessary to paste a link as FolderLink, specify an ID of 0 or more.</td></tr>
+</table>
+
+<h4>CCM tag</h4>
+The CCM tag defines a control change macro (ControlChangeMacro).<br>
+Multiple CCM tags can be defined.
+CCM tags can have Value tag, Gate tag, Memo tag, Data tag as elements.<br>
+<br>
+Attributes of the CCM tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the macro ID. ID is in the range of 0 to 1300, please do not duplicate.</td></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the macro name.</td></tr>
+<tr><td>Color</td><td>#000000</td><td>Specifies the display color on the event list.</td></tr>
+<tr><td>Sync</td><td></td><td>Use this attribute when using the [Match state with MIDI device] function. Not specified ・ ・ ・ We do not process anything.<br>Last ... We will only process the last event on the event list. It is good to attach it to an event that is effective even when it is executed independently.<br>LastEachGate ・ ・ ・ Last is a process for each event, but LastEachGate processes every event&Gate. It is used in the drum parameter change system event which uses Gate as the scale.</td></tr>
+When<tr><td>MuteSync</td><td></td><td>[playing track] is off, if you do not want to send this control change macro as well, specify "1" Please give me.</td></tr>
+</table>
+
+<h4>Vaule tag, Gate tag</h4>
+Value tag, attributes of Gate tag are the same.<br>
+The Value tag defines the range of the Value value of the event.<br>
+The Gate tag defines the range of the event 's Gate value.<br>
+If not defined, the Value field/Gate field will be invalid.<br>
+<br>
+The Value tag and the Gate tag can have multiple Entry tags (it does not matter) as table data.<br>
+<br>
+Attributes of Value tag and Gate tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Default</td><td>0</td><td>Specify the default value.</td></tr>
+<tr><td>Min</td><td>0</td><td>Specify the minimum value.</td></tr>
+<tr><td>Max</td><td>127</td><td>Specify the maximum value.</td></tr>
+<tr><td>Offset</td><td>0</td><td>Specify a value to be added when actually sending data.<br>For example, panpot is specified in the range from -64 to +63, but when sending it to midi device, you have to send this value +64 before sending it. In such a case, specify Offset to 64.</td></tr>
+<tr><td>Name</td><td></td><td>Specify the name of the value (not much on the screen).</td></tr>
+<tr><td>Type</td><td></td><td>If "Key" is specified, the button to refer to the keyboard appears on the property screen.</td></tr>
+<tr><td>TableID</td><td></td><td>To use the common table, specify the table ID here.</td></tr>
+</table>
+
+<h4>Entry tag</h4>
+The Entry tag defines one table of data.<br>
+Entry tags are defined as elements of Gate tag, Value tag, Table tag.<br>
+<br>
+Attributes of the Entry tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Label</td><td>Required</td><td>Specify the text to be displayed.</td></tr>
+<tr><td>Value</td><td>Required</td><td>Specify a value.</td></tr>
+</table>
+<br>
+By defining the table in this way, the user will be able to select from the table as well as the value.<br>
+<img src="module_000.png" width="567" height="517"><br>
+
+<h4>Memo tag</h4>
+The Memo tag defines the memo of the control change macro.<br>
+It is used in the property change screen of the control change event etc.<br>
+If you want to put a line break in the sentence please write "\ n".<br>
+<br>
+<h4>Data tag</h4>
+The Data tag defines what information is sent to the MIDI device.<br>
+<br>
+The content of the Data tag is defined by combining an instruction command with an at-sign and a value (fixed value/variable value).<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; Data&gt; @ NRPN 1AH#GL#VL#NONE&lt;/Data&gt;
+</pre>
+</div>
+<br>
+Separate instructions and values ??with spaces.<br>
+You can define as many as "@ command command value value ... @ command command value value ..."<br>
+(However, since it is the same period that is actually processed, it is not good to send many heavy processing at the same time.)<br>
+<br>
+
+The list of command commands is as follows.<br>
+<table>
+<tr><th>Syntax</th><th>Meaning</th></tr>
+<tr><td>@ PB [HighValue] [LowValue]</td><td>Send pitch bend.</td></tr>
+<tr><td>@ CP [Value]</td><td>Send channel pressure.</td></tr>
+<tr><td>@ PKP [Key] [Value]</td><td>Send the polyphonic key pressure.</td></tr>
+<tr><td>@ CC [ControlChangeNumber] [Value]</td><td>Send control change.</td></tr>
+<tr><td>@ SYSEX F 0 H ..... F 7 H</td><t d>Send system exclusive. When using [and], it automatically inserts the checksum of the enclosing part into the] part before sending it.</td></tr>
+<tr><td>@ RPN [RPN MSB] [RPN LSB] [Data MSB] [Data LSB]</td><td>Send RPN.</td></tr>
+<tr><td>@ NRPN [NRPN MSB] [NRPN LSB] [Data MSB] [Data LSB]</td><td>Send NRPN.</tr>
+</table>
+<br>
+It is necessary to specify a fixed number of values ??following the command command.<br>
+To specify a fixed decimal value, enter "1" or "10".<br>
+To specify a fixed hexadecimal value, enter "1h", "10H", "0x20", etc.<br>
+<br>
+Not only fixed values ??but also variable values ??can be used.<br>
+<br>
+The list of variable values ??(and special values) is as follows.<br>
+<table>
+<tr><th>Syntax</th><th>Meaning</th></tr>
+<tr><td>#NONE</td><td>It does not have the value itself. It can be used in the [Data LSB] part of @ RPN.</td></tr>
+<tr><td>#VL</td><td>Reference the lower 7 bits of the Value.</td></tr>
+<tr><td>#VH</td><td>Refers to the upper 7 bits of the Value.</td></tr>
+<tr><td>#GL</td><td>Refers to the lower 7 bits of the Gate value.</td></tr>
+<tr><td>#GH</td><td>Refers to the upper 7 bits of the Gate value.</td></tr>
+<tr><td>#CH</td>Make values ??from 00H to 0FH based on the<td>channel.</td></tr>
+<tr><td>#1 CH</td><td>Create values ??from 10 H to 1 FH based on the channel.</td></tr>
+<tr><td>#2CH</td>Make values ??up to 2FH based on the<td>channel.</td></tr>
+<tr><td>#3 CH</td><td>Create a value from 30H to 3FH based on the channel.</td></tr>
+<tr><td>#PCH</td><td>In the case of the A port, make values ??from 00H to 1FH based on the channel.<br>Similarly, B port makes 10H ~ 1FH, C port 20H ~ 2FH, D port 30H ~ 3FH value. After the E port, it will always be 00H. Please do not use in generic sound source definition file (because it is affected by port).</td></tr>
+<tr><td>#1 RCH</td><td>In Roland's sound source manual, make the value indicated as "1x" (x is block number ? channel).</td></tr>
+<tr><td>#2 RCH</td><td>Make the value written as "2x" (x is block number ? channel) in Roland's sound source manual.</td></tr>
+<tr><td>#4 RCH</td><td>Make the value written as "4 x" (x is block number ? channel) in Roland's sound source manual.</td></tr>
+<tr><td>#VF1</td><td>Make values ??from 00H to 0FH based on 1 to 4 bits of Value.</td></tr>
+<tr><td>#VF 2</td><td>Make values ??from 00H to 0FH based on the value of 5 to 8 bits of Value.</td></tr>
+<tr><td>#VF3</td><td>Create values ??from 00H to 0FH based on the value of 9 to 12 bits of Value.</td></tr>
+<tr><td>#VF4</td><td>Make values ??from 00H to 0FH based on the value of 13 to 16 bits of the Value.</td></tr>
+<tr><td>#RSCTRT 1 (#RSCTRT 1 P)<br>#RSCTRT 2<br>#RSCTRT 3</td><td>It is necessary to adjust the Temporary Rhythm Tone in Roland's SonicCell sound source etc. We generate a 24 bit value from the channel and Gate value (Note numbers 21 to 108). The generation range is 11h 10h 10h to 14h 71h 3Eh.<br>When actually describing in the sound source definition file, it is in the order of#RSCTRT 3#RSCTRT 2#RSCTRT 1.<br>#RSCTRT 1 P is#RSCTRT 1 plus one.</td></tr>
+<tr><td>#RSCTPT 1 (#RSCTPT 1 P)<br>#RSCTPT 2<br>#RSCTPT 3</td><td>It is necessary to adjust the Temporary Patch Tone with Roland's SonicCell tone generator etc. We generate a 24-bit value from the channel and Gate value (Patch Tone numbers 1 to 4).<br>When actually describing it in the sound source definition file, it is in the order of#RSCTPT 3#RSCTPT 2#RSCTPT 1.<br>#RSCTPT 1 P is#RSCTPT 1 plus one.</td></tr>
+<tr><td>#VPGL</td><td>Reference the lower 7 bits of Value + Gate value (it will not be restored from SMF).</td></tr>
+<tr><td>#VPGH</td><td>Refers to the upper 7 bits of Value + Gate value (it will not be restored from SMF).</td></tr>
+</table>
+<br>
+If there are other necessary values, please make a request with usage.
+
+<h4>CCMLink Tag</h4>
+CCMLink tags are almost identical in content to other CCM tags and are used only when changing the default values ??of Value and Gate and want to place them at that position.<br>
+(In case of SC - 8850, it is heavily used with EFX macro.)<br>
+<br>
+The attributes of the CCMLink tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the macro ID of the link destination.</td></tr>
+<tr><td>Value</td><td></td><td>Specify this when you want to change the default value of Value.</td></tr>
+<tr><td>Gate</td><td></td><td>Specify this when you want to change the default value of Gate.</td></tr>
+</table>
+
+
+<h4>FolderLink Tag</h4>
+The FolderLink tag is used when you want to change the default value of Value or Gate and place it at that position with almost the same contents as other folders.<br>
+(It is used on models with multiple MFX like SD-80 etc.)<br>
+<br>
+Attributes of the FolderLink tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the folder name. It does not have to be the same as the link destination.</td></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the ID of the linked Folder.</td></tr>
+<tr><td>Value</td><td></td><td>Specify this when you want to change the default value of Value.</td></tr>
+<tr><td>Gate</td><td></td><td>Specify this when you want to change the default value of Gate.</td></tr>
+</table>
+
+
+
+<h4>Table tag</h4>
+Normal tables are defined using Entry tags as elements of Value tags and Gate tags,
+If you define a table as a common table, you can use the same table with multiple macros.<br>
+<br>
+The Table tag can be defined just under the ControlChangeMacroList tag or just under the Folder tag.<br>
+A Table tag can have multiple Entry tags as elements.<br>
+<br>
+The attributes of the Table tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the table ID. Specify 0 or more and do not overlap.</td></tr>
+</table>
+</div>
+
+<h3><a name="TemplateList">Template information</a></h3>
+<div class=w>
+The template function is a function that allows you to insert multiple events such as CC events together as one template and insert by user.<br>
+We define the information here in such a template.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; Template ID="0" Name="Track initialization"&gt;
+&lt; Memo&gt; Template for track initialization.&lt;/Memo&gt;
+&lt; CC ID="7" Value="100"/&gt;
+&lt; CC ID="10" Value="0"/&gt;
+&lt; PC Mode="Auto"/&gt;
+&lt; CC ID="91" Value="40"/&gt;
+&lt; CC ID="93" Value="0"/&gt;
+&lt; CC ID="94" Value="0"/&gt;
+&lt; CC ID="74" Value="0"/&gt;
+&lt; CC ID="71" Value="0"/&gt;
+&lt; CC ID="130" Value="0"/&gt;
+&lt; CC ID="11" Value="127"/&gt;
+&lt; CC ID="76" Value="0"/&gt;
+&lt; CC ID="77" Value="0"/&gt;
+&lt; CC ID="78" Value="0"/&gt;
+&lt;/Template&gt;
+</pre>
+</div>
+
+<h4>Folder tag</h4>
+Each Template tag can create a folder freely and can enter it.<br>
+By doing so, you can make it easier for users to find the desired template.<br>
+The Folder tag defines that folder (not necessary).<br>
+The Folder tag can have multiple Template tags as elements (if there are none, the folder will not be displayed ^^;).<br>
+<br>
+Attributes of the Folder tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the folder name.</td></tr>
+</table>
+
+<h4>Template Tag</h4>
+You can have Memo, CC, PC, Comment tags as elements.<br>
+This tells the template what events to include.<br>
+<br>
+
+Attributes of the Folder tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td></td><td>Specify the template ID. Please specify 0 or more. It is used when referring from the default data.</td></tr>
+<tr><td>Name</td><td>Required</td><td>Specify the template name.</td></tr>
+</table>
+
+<h4>Memo tag</h4>
+
+Fill in the memo (description) of the template.<br>
+The memo is displayed on the [Template] screen.<br>
+
+<h4>CC tag</h4>
+It instructs insertion of control change event.<br>
+<br>
+Attributes of the CC tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the macro ID.</td></tr>
+<tr><td>Value</td><td></td><td>Specify this when you want to change the default value of Value.</td></tr>
+<tr><td>Gate</td><td></td><td>Specify this when you want to change the default value of Gate.</td></tr>
+</table>
+
+<h4>PC tag</h4>
+Instructs insertion of program change event.<br>
+<br>
+Attributes of the PC tag are as follows.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>PC</td><td>1</td><td>Specify the PC number in the range from 1 to 128.</td></tr>
+<tr><td>MSB</td><td></td><td>Specify the Bank Select MSB value.</td></tr>
+<tr><td>LSB</td><td></td><td>Specify the Bank Select LSB value.</td></tr>
+<tr><td>Mode</td><td></td><td>Drumset ... Specifies the sound mode of the drum set.<br>Auto ... When the type of track is "rhythm", set it to the sound mode of the drum set.</td></tr>
+</table>
+
+<h4>Comment tag</h4>
+Instructs insertion of comment event.
+
+The attributes of the Comment tag are as follows.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Text</td><td></td><td>Specify comment data.</td></tr>
+</table>
+
+</div>
+
+<h3><a name="DefaultData">default data information</a></h3>
+<div class=w>
+Default data is data prepared beforehand when Domino is started up or newly created.<br>
+You can define this data.<br>
+<br>
+Example)<br>
+<div class=src>
+<pre>
+&lt; Mark Meas="2" Name="Start"/&gt;
+&lt; Track Mode="Conductor"&gt;
+&lt; Mark Tick="0" Name="Setup"/&gt;
+&lt; Tempo Tick="0" Tempo="120.0"/&gt;
+&lt; Mark Tick="1920" Name="Start"/&gt;
+&lt; EOT Tick="1920"/&gt;
+&lt;/Track&gt;
+&lt; Track Name="Setup" Ch="1"&gt;
+&lt; CC Tick="0" ID="200"/&gt;
+&lt; CC Tick="240" ID="201"/&gt;
+&lt; EOT Tick="1920"/&gt;
+&lt;/Track&gt;
+&lt; Track Ch="1" Current="1"&gt;
+&lt; Template ID="0" Tick="480"/&gt;
+&lt; EOT Tick="1920"/&gt;
+&lt;/Track&gt;
+(Omitted)
+&lt; Track Name="Rhythm" Ch="10" Mode="Rhythm"&gt;
+&lt; Template ID="0" Tick="480"/&gt;
+&lt; EOT Tick="1920"/&gt;
+&lt;/Track&gt;
+(Omitted)
+</pre>
+</div>
+
+<h4>Track tag</h4>
+The Track tag defines one track information.<br>
+(Actually, the tracks are created in the order in which they are placed.)<br>
+<br>
+You can have Mark tag, TimeSignature tag, KeySignature tag, CC tag, PC tag, Comment tag, Template tag, EOT tag as elements.<br>
+This tells you what events to include in the track.<br>
+<br>
+The attributes of the Track tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td></td><td>Specify the track name.</td></tr>
+<tr><td>Ch</td><td>1</td><td>Specify the channel number. Please specify it in the range of 1 ~ 16.</td></tr>
+<tr><td>Mode</td><td></td><td>If "Conductor" is specified, it becomes a conductor track (only one can be specified).<br>When "Rhythm" is specified, it will be treated as a rhythm track.</td></tr>
+</table>
+
+<h4>Mark tag</h4>
+Indicates insertion of mark event.<br>
+<br>
+The attributes of the Mark tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Name</td><td></td><td>Specify the mark name.</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>TimeSignature tag</h4>
+Instruct insertion of beat event.<br>
+<br>
+Attributes of the TimeSignature tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>TimeSignature</td><td>Required</td><td>Specify the time signature. Example) 4/4</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>KeySignature tag</h4>
+It instructs insertion of signature event.<br>
+<br>
+The attributes of the KeySignature tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>KeySignature</td><td>Required</td><td>key signature. Example) C Maj</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>CC tag</h4>
+It instructs insertion of control change event.<br>
+<br>
+Attributes of the CC tag are as follows.<br>
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td>Required</td><td>Specify the macro ID.</td></tr>
+<tr><td>Value</td><td></td><td>Specify this when you want to change the default value of Value.</td></tr>
+<tr><td>Gate</td><td></td><td>Specify this when you want to change the default value of Gate.</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+
+</table>
+
+<h4>PC tag</h4>
+Instructs insertion of program change event.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>PC</td><td>1</td><td>Specify the PC number in the range from 1 to 128.</td></tr>
+<tr><td>MSB</td><td></td><td>Specify the Bank Select MSB value.</td></tr>
+<tr><td>LSB</td><td></td><td>Specify the Bank Select LSB value.</td></tr>
+<tr><td>Mode</td><td></td><td>Drumset ... Specifies the sound mode of the drum set.<br>Auto ... When the type of track is "rhythm", set it to the sound mode of the drum set.</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>Comment tag</h4>
+Instructs insertion of comment event.
+
+The attributes of the Comment tag are as follows.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Text</td><td></td><td>Specify comment data.</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>Template Tag</h4>
+It instructs the insertion of the event using the predefined template.<br>
+It also saves the definition file size (=memory saving).<br>
+<br>
+The attributes of the Template tag are as follows.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>ID</td><td></td><td>Specify the template ID to reference.</td></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert. If there is nothing, it is automatically placed according to the last specified Step value.</td></tr>
+<tr><td>Step</td><td></td><td>Specify the placement interval after this event.</td></tr>
+</table>
+
+<h4>EOT tag</h4>
+Indicate the position of End of Track (if it is not there, it will be added automatically).<br>
+<br>
+Attributes of the EOT tag are as follows.
+<table>
+<tr><th>attribute</th><th>when omitted</th><th>meaning</th></tr>
+<tr><td>Tick</td><td></td><td>Specify absolute tick to insert.</td></tr>
+</table>
+
+</div>
+</body>
+</html> 
