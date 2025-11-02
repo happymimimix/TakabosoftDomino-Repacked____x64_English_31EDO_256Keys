@@ -367,7 +367,6 @@
     <ROW Component="INJECTDLL.exe" ComponentId="{4D576EE3-5E07-49BA-9584-2D3762F9E519}" Directory_="APPDIR" Attributes="0" KeyPath="INJECTDLL.exe"/>
     <ROW Component="Icon.png" ComponentId="{64043CA5-087F-4D63-A54D-76D2B8D2A84A}" Directory_="SYSTEM_Dir" Attributes="0" KeyPath="Icon.png"/>
     <ROW Component="MSGS.xml" ComponentId="{C7A7F732-B883-4145-AA49-4DB7101573F8}" Directory_="MODULE_Dir" Attributes="0" KeyPath="MSGS.xml"/>
-    <ROW Component="MSGSansi.xml" ComponentId="{FCC1F0FB-C731-4707-B1B2-ABA7943F1390}" Directory_="MODULE_Dir" Attributes="0" KeyPath="MSGSansi.xml"/>
     <ROW Component="MUIVerb" ComponentId="{2E6BD001-F962-451F-8AC6-AEBDEF5FD5C8}" Directory_="APPDIR" Attributes="4" KeyPath="MUIVerb"/>
     <ROW Component="MainToolBar.dat" ComponentId="{0E4B887B-EFD0-40CD-B3B2-B8AB58D58910}" Directory_="CustomToolBar_Dir" Attributes="0" KeyPath="MainToolBar.dat"/>
     <ROW Component="MarkBar.ini" ComponentId="{90A5C9A9-81E7-40F9-A856-12A97DEDE6F2}" Directory_="PLACEHOLDER_Dir" Attributes="0" KeyPath="MarkBar.ini"/>
@@ -721,7 +720,6 @@
     <ROW File="Window1920x1080.ini" Component_="Window1920x1080.ini" FileName="WINDOW~1.INI|Window1920x1080.ini" Attributes="0" SourcePath="Domino 1.45\Files\INIFILES\PLACEHOLDER\Window1920x1080.ini" SelfReg="false"/>
     <ROW File="WindowBar1920x1080.dat" Component_="WindowBar1920x1080.dat" FileName="WINDOW~1.DAT|WindowBar1920x1080.dat" Attributes="0" SourcePath="Domino 1.45\Files\INIFILES\PLACEHOLDER\WindowBar1920x1080.dat" SelfReg="false"/>
     <ROW File="MSGS.xml" Component_="MSGS.xml" FileName="MSGS.xml" Attributes="5" SourcePath="Domino 1.45\Files\MODULE\MSGS.xml" SelfReg="false"/>
-    <ROW File="MSGSansi.xml" Component_="MSGSansi.xml" FileName="MSGSansi.xml" Attributes="5" SourcePath="Domino 1.45\Files\MODULE\MSGSansi.xml" SelfReg="false"/>
     <ROW File="QuickTrackAppender.xml" Component_="QuickTrackAppender.xml" FileName="QUICKT~1.XML|QuickTrackAppender.xml" Attributes="5" SourcePath="Domino 1.45\Files\MODULE\QuickTrackAppender.xml" SelfReg="false"/>
     <ROW File="CheckIL.png" Component_="CheckIL.png" FileName="CheckIL.png" Attributes="5" SourcePath="Domino 1.45\Files\SYSTEM\CheckIL.png" SelfReg="false"/>
     <ROW File="Cursor.png" Component_="Cursor.png" FileName="Cursor.png" Attributes="5" SourcePath="Domino 1.45\Files\SYSTEM\Cursor.png" SelfReg="false"/>
@@ -1637,7 +1635,6 @@
     <ROW Feature_="Main" Component_="Track.ini"/>
     <ROW Feature_="Main" Component_="EventGraphPen.ini"/>
     <ROW Feature_="Main" Component_="PianoRollPen.ini"/>
-    <ROW Feature_="Main" Component_="MSGSansi.xml"/>
     <ROW Feature_="Main" Component_="MSGS.xml"/>
     <ROW Feature_="Main" Component_="QuickTrackAppender.xml"/>
     <ROW Feature_="Main" Component_="use_035.png"/>
