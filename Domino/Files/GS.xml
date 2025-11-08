@@ -408,221 +408,43 @@
 <Entry Label="+62" Value="126" />
 <Entry Label="+63" Value="127" />
 </Table>
-<Table ID="7">
-<Entry Label="-24" Value="40" />
-<Entry Label="-23" Value="41" />
-<Entry Label="-22" Value="42" />
-<Entry Label="-21" Value="43" />
-<Entry Label="-20" Value="44" />
-<Entry Label="-19" Value="45" />
-<Entry Label="-18" Value="46" />
-<Entry Label="-17" Value="47" />
-<Entry Label="-16" Value="48" />
-<Entry Label="-15" Value="49" />
-<Entry Label="-14" Value="50" />
-<Entry Label="-13" Value="51" />
-<Entry Label="-12" Value="52" />
-<Entry Label="-11" Value="53" />
-<Entry Label="-10" Value="54" />
-<Entry Label="-09" Value="55" />
-<Entry Label="-08" Value="56" />
-<Entry Label="-07" Value="57" />
-<Entry Label="-06" Value="58" />
-<Entry Label="-05" Value="59" />
-<Entry Label="-04" Value="60" />
-<Entry Label="-03" Value="61" />
-<Entry Label="-02" Value="62" />
-<Entry Label="-01" Value="63" />
-<Entry Label=" 00" Value="64" />
-<Entry Label="+01" Value="65" />
-<Entry Label="+02" Value="66" />
-<Entry Label="+03" Value="67" />
-<Entry Label="+04" Value="68" />
-<Entry Label="+05" Value="69" />
-<Entry Label="+06" Value="70" />
-<Entry Label="+07" Value="71" />
-<Entry Label="+08" Value="72" />
-<Entry Label="+09" Value="73" />
-<Entry Label="+10" Value="74" />
-<Entry Label="+11" Value="75" />
-<Entry Label="+12" Value="76" />
-<Entry Label="+13" Value="77" />
-<Entry Label="+14" Value="78" />
-<Entry Label="+15" Value="79" />
-<Entry Label="+16" Value="80" />
-<Entry Label="+17" Value="81" />
-<Entry Label="+18" Value="82" />
-<Entry Label="+19" Value="83" />
-<Entry Label="+20" Value="84" />
-<Entry Label="+21" Value="85" />
-<Entry Label="+22" Value="86" />
-<Entry Label="+23" Value="87" />
-<Entry Label="+24" Value="88" />
-</Table>
 <Table ID="8">
-<Entry Label="-16" Value="48" />
-<Entry Label="-15" Value="49" />
-<Entry Label="-14" Value="50" />
-<Entry Label="-13" Value="51" />
-<Entry Label="-12" Value="52" />
-<Entry Label="-11" Value="53" />
-<Entry Label="-10" Value="54" />
-<Entry Label="-09" Value="55" />
-<Entry Label="-08" Value="56" />
-<Entry Label="-07" Value="57" />
-<Entry Label="-06" Value="58" />
-<Entry Label="-05" Value="59" />
-<Entry Label="-04" Value="60" />
-<Entry Label="-03" Value="61" />
-<Entry Label="-02" Value="62" />
-<Entry Label="-01" Value="63" />
-<Entry Label=" 00" Value="64" />
-<Entry Label="+01" Value="65" />
-<Entry Label="+02" Value="66" />
-<Entry Label="+03" Value="67" />
-<Entry Label="+04" Value="68" />
-<Entry Label="+05" Value="69" />
-<Entry Label="+06" Value="70" />
-<Entry Label="+07" Value="71" />
-<Entry Label="+08" Value="72" />
-<Entry Label="+09" Value="73" />
-<Entry Label="+10" Value="74" />
-<Entry Label="+11" Value="75" />
-<Entry Label="+12" Value="76" />
-<Entry Label="+13" Value="77" />
-<Entry Label="+14" Value="78" />
-<Entry Label="+15" Value="79" />
-<Entry Label="+16" Value="80" />
+<Entry Label="Port A" Value="0" />
+<Entry Label="Port B" Value="1" />
 </Table>
 <Table ID="9">
-<Entry Label="-12" Value="52" />
-<Entry Label="-11" Value="53" />
-<Entry Label="-10" Value="54" />
-<Entry Label="-09" Value="55" />
-<Entry Label="-08" Value="56" />
-<Entry Label="-07" Value="57" />
-<Entry Label="-06" Value="58" />
-<Entry Label="-05" Value="59" />
-<Entry Label="-04" Value="60" />
-<Entry Label="-03" Value="61" />
-<Entry Label="-02" Value="62" />
-<Entry Label="-01" Value="63" />
-<Entry Label=" 00" Value="64" />
-<Entry Label="+01" Value="65" />
-<Entry Label="+02" Value="66" />
-<Entry Label="+03" Value="67" />
-<Entry Label="+04" Value="68" />
-<Entry Label="+05" Value="69" />
-<Entry Label="+06" Value="70" />
-<Entry Label="+07" Value="71" />
-<Entry Label="+08" Value="72" />
-<Entry Label="+09" Value="73" />
-<Entry Label="+10" Value="74" />
-<Entry Label="+11" Value="75" />
-<Entry Label="+12" Value="76" />
-</Table>
-<Table ID="10">
-<Entry Label="-50" Value="14" />
-<Entry Label="-49" Value="15" />
-<Entry Label="-48" Value="16" />
-<Entry Label="-47" Value="17" />
-<Entry Label="-46" Value="18" />
-<Entry Label="-45" Value="19" />
-<Entry Label="-44" Value="20" />
-<Entry Label="-43" Value="21" />
-<Entry Label="-42" Value="22" />
-<Entry Label="-41" Value="23" />
-<Entry Label="-40" Value="24" />
-<Entry Label="-39" Value="25" />
-<Entry Label="-38" Value="26" />
-<Entry Label="-37" Value="27" />
-<Entry Label="-36" Value="28" />
-<Entry Label="-35" Value="29" />
-<Entry Label="-34" Value="30" />
-<Entry Label="-33" Value="31" />
-<Entry Label="-32" Value="32" />
-<Entry Label="-31" Value="33" />
-<Entry Label="-30" Value="34" />
-<Entry Label="-29" Value="35" />
-<Entry Label="-28" Value="36" />
-<Entry Label="-27" Value="37" />
-<Entry Label="-26" Value="38" />
-<Entry Label="-25" Value="39" />
-<Entry Label="-24" Value="40" />
-<Entry Label="-23" Value="41" />
-<Entry Label="-22" Value="42" />
-<Entry Label="-21" Value="43" />
-<Entry Label="-20" Value="44" />
-<Entry Label="-19" Value="45" />
-<Entry Label="-18" Value="46" />
-<Entry Label="-17" Value="47" />
-<Entry Label="-16" Value="48" />
-<Entry Label="-15" Value="49" />
-<Entry Label="-14" Value="50" />
-<Entry Label="-13" Value="51" />
-<Entry Label="-12" Value="52" />
-<Entry Label="-11" Value="53" />
-<Entry Label="-10" Value="54" />
-<Entry Label="-09" Value="55" />
-<Entry Label="-08" Value="56" />
-<Entry Label="-07" Value="57" />
-<Entry Label="-06" Value="58" />
-<Entry Label="-05" Value="59" />
-<Entry Label="-04" Value="60" />
-<Entry Label="-03" Value="61" />
-<Entry Label="-02" Value="62" />
-<Entry Label="-01" Value="63" />
-<Entry Label=" 00" Value="64" />
-<Entry Label="+01" Value="65" />
-<Entry Label="+02" Value="66" />
-<Entry Label="+03" Value="67" />
-<Entry Label="+04" Value="68" />
-<Entry Label="+05" Value="69" />
-<Entry Label="+06" Value="70" />
-<Entry Label="+07" Value="71" />
-<Entry Label="+08" Value="72" />
-<Entry Label="+09" Value="73" />
-<Entry Label="+10" Value="74" />
-<Entry Label="+11" Value="75" />
-<Entry Label="+12" Value="76" />
-<Entry Label="+13" Value="77" />
-<Entry Label="+14" Value="78" />
-<Entry Label="+15" Value="79" />
-<Entry Label="+16" Value="80" />
-<Entry Label="+17" Value="81" />
-<Entry Label="+18" Value="82" />
-<Entry Label="+19" Value="83" />
-<Entry Label="+20" Value="84" />
-<Entry Label="+21" Value="85" />
-<Entry Label="+22" Value="86" />
-<Entry Label="+23" Value="87" />
-<Entry Label="+24" Value="88" />
-<Entry Label="+25" Value="89" />
-<Entry Label="+26" Value="90" />
-<Entry Label="+27" Value="91" />
-<Entry Label="+28" Value="92" />
-<Entry Label="+29" Value="93" />
-<Entry Label="+30" Value="94" />
-<Entry Label="+31" Value="95" />
-<Entry Label="+32" Value="96" />
-<Entry Label="+33" Value="97" />
-<Entry Label="+34" Value="98" />
-<Entry Label="+35" Value="99" />
-<Entry Label="+36" Value="100" />
-<Entry Label="+37" Value="101" />
-<Entry Label="+38" Value="102" />
-<Entry Label="+39" Value="103" />
-<Entry Label="+40" Value="104" />
-<Entry Label="+41" Value="105" />
-<Entry Label="+42" Value="106" />
-<Entry Label="+43" Value="107" />
-<Entry Label="+44" Value="108" />
-<Entry Label="+45" Value="109" />
-<Entry Label="+46" Value="110" />
-<Entry Label="+47" Value="111" />
-<Entry Label="+48" Value="112" />
-<Entry Label="+49" Value="113" />
-<Entry Label="+50" Value="114" />
+<Entry Label="A 01" Value="1" />
+<Entry Label="A 02" Value="2" />
+<Entry Label="A 03" Value="3" />
+<Entry Label="A 04" Value="4" />
+<Entry Label="A 05" Value="5" />
+<Entry Label="A 06" Value="6" />
+<Entry Label="A 07" Value="7" />
+<Entry Label="A 08" Value="8" />
+<Entry Label="A 09" Value="9" />
+<Entry Label="A 10" Value="0" />
+<Entry Label="A 11" Value="10" />
+<Entry Label="A 12" Value="11" />
+<Entry Label="A 13" Value="12" />
+<Entry Label="A 14" Value="13" />
+<Entry Label="A 15" Value="14" />
+<Entry Label="A 16" Value="15" />
+<Entry Label="B 01" Value="17" />
+<Entry Label="B 02" Value="18" />
+<Entry Label="B 03" Value="19" />
+<Entry Label="B 04" Value="20" />
+<Entry Label="B 05" Value="21" />
+<Entry Label="B 06" Value="22" />
+<Entry Label="B 07" Value="23" />
+<Entry Label="B 08" Value="24" />
+<Entry Label="B 09" Value="25" />
+<Entry Label="B 10" Value="16" />
+<Entry Label="B 11" Value="26" />
+<Entry Label="B 12" Value="27" />
+<Entry Label="B 13" Value="28" />
+<Entry Label="B 14" Value="29" />
+<Entry Label="B 15" Value="30" />
+<Entry Label="B 16" Value="31" />
 </Table>
 <Table ID="11">
 <Entry Label="CH01" Value="1" />
@@ -634,13 +456,14 @@
 <Entry Label="CH07" Value="7" />
 <Entry Label="CH08" Value="8" />
 <Entry Label="CH09" Value="9" />
-<Entry Label="CH10" Value="0" />
-<Entry Label="CH11" Value="10" />
-<Entry Label="CH12" Value="11" />
-<Entry Label="CH13" Value="12" />
-<Entry Label="CH14" Value="13" />
-<Entry Label="CH15" Value="14" />
-<Entry Label="CH16" Value="15" />
+<Entry Label="CH10" Value="10" />
+<Entry Label="CH11" Value="11" />
+<Entry Label="CH12" Value="12" />
+<Entry Label="CH13" Value="13" />
+<Entry Label="CH14" Value="14" />
+<Entry Label="CH15" Value="15" />
+<Entry Label="CH16" Value="16" />
+<Entry Label=" OFF" Value="17" />
 </Table>
 <Table ID="12">
 <Entry Label="CH01" Value="17" />
@@ -677,24 +500,6 @@
 <Entry Label="CH14" Value="45" />
 <Entry Label="CH15" Value="46" />
 <Entry Label="CH16" Value="47" />
-</Table>
-<Table ID="14">
-<Entry Label="CH01" Value="49" />
-<Entry Label="CH02" Value="50" />
-<Entry Label="CH03" Value="51" />
-<Entry Label="CH04" Value="52" />
-<Entry Label="CH05" Value="53" />
-<Entry Label="CH06" Value="54" />
-<Entry Label="CH07" Value="55" />
-<Entry Label="CH08" Value="56" />
-<Entry Label="CH09" Value="57" />
-<Entry Label="CH10" Value="48" />
-<Entry Label="CH11" Value="58" />
-<Entry Label="CH12" Value="59" />
-<Entry Label="CH13" Value="60" />
-<Entry Label="CH14" Value="61" />
-<Entry Label="CH15" Value="62" />
-<Entry Label="CH16" Value="63" />
 </Table>
 <Table ID="15">
 <Entry Label="CH01" Value="65" />
@@ -1082,136 +887,6 @@
 <Entry Label=" 980ms" Value="113" />
 <Entry Label=" 990ms" Value="114" />
 <Entry Label="1000ms" Value="115" />
-</Table>
-<Table ID="23">
-<Entry Label=" 200ms" Value="0" />
-<Entry Label=" 205ms" Value="1" />
-<Entry Label=" 210ms" Value="2" />
-<Entry Label=" 215ms" Value="3" />
-<Entry Label=" 220ms" Value="4" />
-<Entry Label=" 225ms" Value="5" />
-<Entry Label=" 230ms" Value="6" />
-<Entry Label=" 235ms" Value="7" />
-<Entry Label=" 240ms" Value="8" />
-<Entry Label=" 245ms" Value="9" />
-<Entry Label=" 250ms" Value="10" />
-<Entry Label=" 255ms" Value="11" />
-<Entry Label=" 260ms" Value="12" />
-<Entry Label=" 265ms" Value="13" />
-<Entry Label=" 270ms" Value="14" />
-<Entry Label=" 275ms" Value="15" />
-<Entry Label=" 280ms" Value="16" />
-<Entry Label=" 285ms" Value="17" />
-<Entry Label=" 290ms" Value="18" />
-<Entry Label=" 295ms" Value="19" />
-<Entry Label=" 300ms" Value="20" />
-<Entry Label=" 305ms" Value="21" />
-<Entry Label=" 310ms" Value="22" />
-<Entry Label=" 315ms" Value="23" />
-<Entry Label=" 320ms" Value="24" />
-<Entry Label=" 325ms" Value="25" />
-<Entry Label=" 330ms" Value="26" />
-<Entry Label=" 335ms" Value="27" />
-<Entry Label=" 340ms" Value="28" />
-<Entry Label=" 345ms" Value="29" />
-<Entry Label=" 350ms" Value="30" />
-<Entry Label=" 355ms" Value="31" />
-<Entry Label=" 360ms" Value="32" />
-<Entry Label=" 365ms" Value="33" />
-<Entry Label=" 370ms" Value="34" />
-<Entry Label=" 375ms" Value="35" />
-<Entry Label=" 380ms" Value="36" />
-<Entry Label=" 385ms" Value="37" />
-<Entry Label=" 390ms" Value="38" />
-<Entry Label=" 395ms" Value="39" />
-<Entry Label=" 400ms" Value="40" />
-<Entry Label=" 405ms" Value="41" />
-<Entry Label=" 410ms" Value="42" />
-<Entry Label=" 415ms" Value="43" />
-<Entry Label=" 420ms" Value="44" />
-<Entry Label=" 425ms" Value="45" />
-<Entry Label=" 430ms" Value="46" />
-<Entry Label=" 435ms" Value="47" />
-<Entry Label=" 440ms" Value="48" />
-<Entry Label=" 445ms" Value="49" />
-<Entry Label=" 450ms" Value="50" />
-<Entry Label=" 455ms" Value="51" />
-<Entry Label=" 460ms" Value="52" />
-<Entry Label=" 465ms" Value="53" />
-<Entry Label=" 470ms" Value="54" />
-<Entry Label=" 475ms" Value="55" />
-<Entry Label=" 480ms" Value="56" />
-<Entry Label=" 485ms" Value="57" />
-<Entry Label=" 490ms" Value="58" />
-<Entry Label=" 495ms" Value="59" />
-<Entry Label=" 500ms" Value="60" />
-<Entry Label=" 505ms" Value="61" />
-<Entry Label=" 510ms" Value="62" />
-<Entry Label=" 515ms" Value="63" />
-<Entry Label=" 520ms" Value="64" />
-<Entry Label=" 525ms" Value="65" />
-<Entry Label=" 530ms" Value="66" />
-<Entry Label=" 535ms" Value="67" />
-<Entry Label=" 540ms" Value="68" />
-<Entry Label=" 545ms" Value="69" />
-<Entry Label=" 550ms" Value="70" />
-<Entry Label=" 555ms" Value="71" />
-<Entry Label=" 560ms" Value="72" />
-<Entry Label=" 565ms" Value="73" />
-<Entry Label=" 570ms" Value="74" />
-<Entry Label=" 575ms" Value="75" />
-<Entry Label=" 580ms" Value="76" />
-<Entry Label=" 585ms" Value="77" />
-<Entry Label=" 590ms" Value="78" />
-<Entry Label=" 595ms" Value="79" />
-<Entry Label=" 600ms" Value="80" />
-<Entry Label=" 610ms" Value="81" />
-<Entry Label=" 620ms" Value="82" />
-<Entry Label=" 630ms" Value="83" />
-<Entry Label=" 640ms" Value="84" />
-<Entry Label=" 650ms" Value="85" />
-<Entry Label=" 660ms" Value="86" />
-<Entry Label=" 670ms" Value="87" />
-<Entry Label=" 680ms" Value="88" />
-<Entry Label=" 690ms" Value="89" />
-<Entry Label=" 700ms" Value="90" />
-<Entry Label=" 710ms" Value="91" />
-<Entry Label=" 720ms" Value="92" />
-<Entry Label=" 730ms" Value="93" />
-<Entry Label=" 740ms" Value="94" />
-<Entry Label=" 750ms" Value="95" />
-<Entry Label=" 760ms" Value="96" />
-<Entry Label=" 770ms" Value="97" />
-<Entry Label=" 780ms" Value="98" />
-<Entry Label=" 790ms" Value="99" />
-<Entry Label=" 800ms" Value="100" />
-<Entry Label=" 810ms" Value="101" />
-<Entry Label=" 820ms" Value="102" />
-<Entry Label=" 830ms" Value="103" />
-<Entry Label=" 840ms" Value="104" />
-<Entry Label=" 850ms" Value="105" />
-<Entry Label=" 860ms" Value="106" />
-<Entry Label=" 870ms" Value="107" />
-<Entry Label=" 880ms" Value="108" />
-<Entry Label=" 890ms" Value="109" />
-<Entry Label=" 900ms" Value="110" />
-<Entry Label=" 910ms" Value="111" />
-<Entry Label=" 920ms" Value="112" />
-<Entry Label=" 930ms" Value="113" />
-<Entry Label=" 940ms" Value="114" />
-<Entry Label=" 950ms" Value="115" />
-<Entry Label=" 960ms" Value="116" />
-<Entry Label=" 970ms" Value="117" />
-<Entry Label=" 980ms" Value="118" />
-<Entry Label=" 990ms" Value="119" />
-<Entry Label="1000ms" Value="120" />
-<Entry Label="1000ms" Value="121" />
-<Entry Label="1000ms" Value="122" />
-<Entry Label="1000ms" Value="123" />
-<Entry Label="1000ms" Value="124" />
-<Entry Label="1000ms" Value="125" />
-<Entry Label="1000ms" Value="126" />
-<Entry Label="1000ms" Value="127" />
 </Table>
 <Table ID="24">
 <Entry Label="0.0ms" Value="0" />
@@ -3419,236 +3094,6 @@
 <Entry Label="Group 126" Value="126" />
 <Entry Label="Group 127" Value="127" />
 </Table>
-<Table ID="75">
-<Entry Label="SPACE" Value="32" />
-<Entry Label="!" Value="33" />
-<Entry Label="&quot;" Value="34" />
-<Entry Label="#" Value="35" />
-<Entry Label="$" Value="36" />
-<Entry Label="%" Value="37" />
-<Entry Label="&amp;" Value="38" />
-<Entry Label="'" Value="39" />
-<Entry Label="(" Value="40" />
-<Entry Label=")" Value="41" />
-<Entry Label="*" Value="42" />
-<Entry Label="+" Value="43" />
-<Entry Label="," Value="44" />
-<Entry Label="-" Value="45" />
-<Entry Label="." Value="46" />
-<Entry Label="/" Value="47" />
-<Entry Label="0" Value="48" />
-<Entry Label="1" Value="49" />
-<Entry Label="2" Value="50" />
-<Entry Label="3" Value="51" />
-<Entry Label="4" Value="52" />
-<Entry Label="5" Value="53" />
-<Entry Label="6" Value="54" />
-<Entry Label="7" Value="55" />
-<Entry Label="8" Value="56" />
-<Entry Label="9" Value="57" />
-<Entry Label=":" Value="58" />
-<Entry Label=";" Value="59" />
-<Entry Label="&lt;" Value="60" />
-<Entry Label="=" Value="61" />
-<Entry Label="&gt;" Value="62" />
-<Entry Label="?" Value="63" />
-<Entry Label="@" Value="64" />
-<Entry Label="A" Value="65" />
-<Entry Label="B" Value="66" />
-<Entry Label="C" Value="67" />
-<Entry Label="D" Value="68" />
-<Entry Label="E" Value="69" />
-<Entry Label="F" Value="70" />
-<Entry Label="G" Value="71" />
-<Entry Label="H" Value="72" />
-<Entry Label="I" Value="73" />
-<Entry Label="J" Value="74" />
-<Entry Label="K" Value="75" />
-<Entry Label="L" Value="76" />
-<Entry Label="M" Value="77" />
-<Entry Label="N" Value="78" />
-<Entry Label="O" Value="79" />
-<Entry Label="P" Value="80" />
-<Entry Label="Q" Value="81" />
-<Entry Label="R" Value="82" />
-<Entry Label="S" Value="83" />
-<Entry Label="T" Value="84" />
-<Entry Label="U" Value="85" />
-<Entry Label="V" Value="86" />
-<Entry Label="W" Value="87" />
-<Entry Label="X" Value="88" />
-<Entry Label="Y" Value="89" />
-<Entry Label="Z" Value="90" />
-<Entry Label="[" Value="91" />
-<Entry Label="\" Value="92" />
-<Entry Label="]" Value="93" />
-<Entry Label="^" Value="94" />
-<Entry Label="_" Value="95" />
-<Entry Label="`" Value="96" />
-<Entry Label="a" Value="97" />
-<Entry Label="b" Value="98" />
-<Entry Label="c" Value="99" />
-<Entry Label="d" Value="100" />
-<Entry Label="e" Value="101" />
-<Entry Label="f" Value="102" />
-<Entry Label="g" Value="103" />
-<Entry Label="h" Value="104" />
-<Entry Label="i" Value="105" />
-<Entry Label="j" Value="106" />
-<Entry Label="k" Value="107" />
-<Entry Label="l" Value="108" />
-<Entry Label="m" Value="109" />
-<Entry Label="n" Value="110" />
-<Entry Label="o" Value="111" />
-<Entry Label="p" Value="112" />
-<Entry Label="q" Value="113" />
-<Entry Label="r" Value="114" />
-<Entry Label="s" Value="115" />
-<Entry Label="t" Value="116" />
-<Entry Label="u" Value="117" />
-<Entry Label="v" Value="118" />
-<Entry Label="w" Value="119" />
-<Entry Label="x" Value="120" />
-<Entry Label="y" Value="121" />
-<Entry Label="z" Value="122" />
-<Entry Label="{" Value="123" />
-<Entry Label="|" Value="124" />
-<Entry Label="}" Value="125" />
-<Entry Label="~" Value="126" />
-<Entry Label="DEL" Value="127" />
-</Table>
-<Table ID="76">
-<Entry Label="No.01" Value="1" />
-<Entry Label="No.02" Value="2" />
-<Entry Label="No.03" Value="3" />
-<Entry Label="No.04" Value="4" />
-<Entry Label="No.05" Value="5" />
-<Entry Label="No.06" Value="6" />
-<Entry Label="No.07" Value="7" />
-<Entry Label="No.08" Value="8" />
-<Entry Label="No.09" Value="9" />
-<Entry Label="No.10" Value="10" />
-<Entry Label="No.11" Value="11" />
-<Entry Label="No.12" Value="12" />
-<Entry Label="No.13" Value="13" />
-<Entry Label="No.14" Value="14" />
-<Entry Label="No.15" Value="15" />
-<Entry Label="No.16" Value="16" />
-</Table>
-<Table ID="77">
-<Entry Label="No.01" Value="1" />
-<Entry Label="No.02" Value="2" />
-<Entry Label="No.03" Value="3" />
-<Entry Label="No.04" Value="4" />
-<Entry Label="No.05" Value="5" />
-<Entry Label="No.06" Value="6" />
-<Entry Label="No.07" Value="7" />
-<Entry Label="No.08" Value="8" />
-<Entry Label="No.09" Value="9" />
-<Entry Label="No.10" Value="10" />
-<Entry Label="No.11" Value="11" />
-<Entry Label="No.12" Value="12" />
-</Table>
-<Table ID="78">
-<Entry Label="No.01" Value="1" />
-<Entry Label="No.02" Value="2" />
-<Entry Label="No.03" Value="3" />
-<Entry Label="No.04" Value="4" />
-<Entry Label="No.05" Value="5" />
-<Entry Label="No.06" Value="6" />
-<Entry Label="No.07" Value="7" />
-<Entry Label="No.08" Value="8" />
-<Entry Label="No.09" Value="9" />
-<Entry Label="No.10" Value="10" />
-<Entry Label="No.11" Value="11" />
-<Entry Label="No.12" Value="12" />
-<Entry Label="No.13" Value="13" />
-<Entry Label="No.14" Value="14" />
-<Entry Label="No.15" Value="15" />
-<Entry Label="No.16" Value="16" />
-<Entry Label="No.17" Value="17" />
-<Entry Label="No.18" Value="18" />
-<Entry Label="No.19" Value="19" />
-<Entry Label="No.20" Value="20" />
-<Entry Label="No.21" Value="21" />
-<Entry Label="No.22" Value="22" />
-<Entry Label="No.23" Value="23" />
-<Entry Label="No.24" Value="24" />
-<Entry Label="No.25" Value="25" />
-<Entry Label="No.26" Value="26" />
-<Entry Label="No.27" Value="27" />
-<Entry Label="No.28" Value="28" />
-<Entry Label="No.29" Value="29" />
-<Entry Label="No.30" Value="30" />
-<Entry Label="No.31" Value="31" />
-<Entry Label="No.32" Value="32" />
-</Table>
-<Table ID="79">
-<Entry Label="No.01" Value="1" />
-<Entry Label="No.02" Value="2" />
-<Entry Label="No.03" Value="3" />
-<Entry Label="No.04" Value="4" />
-<Entry Label="No.05" Value="5" />
-<Entry Label="No.06" Value="6" />
-<Entry Label="No.07" Value="7" />
-<Entry Label="No.08" Value="8" />
-<Entry Label="No.09" Value="9" />
-<Entry Label="No.10" Value="10" />
-<Entry Label="No.11" Value="11" />
-<Entry Label="No.12" Value="12" />
-<Entry Label="No.13" Value="13" />
-<Entry Label="No.14" Value="14" />
-<Entry Label="No.15" Value="15" />
-<Entry Label="No.16" Value="16" />
-<Entry Label="No.17" Value="17" />
-<Entry Label="No.18" Value="18" />
-<Entry Label="No.19" Value="19" />
-<Entry Label="No.20" Value="20" />
-<Entry Label="No.21" Value="21" />
-<Entry Label="No.22" Value="22" />
-<Entry Label="No.23" Value="23" />
-<Entry Label="No.24" Value="24" />
-<Entry Label="No.25" Value="25" />
-<Entry Label="No.26" Value="26" />
-<Entry Label="No.27" Value="27" />
-<Entry Label="No.28" Value="28" />
-<Entry Label="No.29" Value="29" />
-<Entry Label="No.30" Value="30" />
-<Entry Label="No.31" Value="31" />
-<Entry Label="No.32" Value="32" />
-<Entry Label="No.33" Value="33" />
-<Entry Label="No.34" Value="34" />
-<Entry Label="No.35" Value="35" />
-<Entry Label="No.36" Value="36" />
-<Entry Label="No.37" Value="37" />
-<Entry Label="No.38" Value="38" />
-<Entry Label="No.39" Value="39" />
-<Entry Label="No.40" Value="40" />
-<Entry Label="No.41" Value="41" />
-<Entry Label="No.42" Value="42" />
-<Entry Label="No.43" Value="43" />
-<Entry Label="No.44" Value="44" />
-<Entry Label="No.45" Value="45" />
-<Entry Label="No.46" Value="46" />
-<Entry Label="No.47" Value="47" />
-<Entry Label="No.48" Value="48" />
-<Entry Label="No.49" Value="49" />
-<Entry Label="No.50" Value="50" />
-<Entry Label="No.51" Value="51" />
-<Entry Label="No.52" Value="52" />
-<Entry Label="No.53" Value="53" />
-<Entry Label="No.54" Value="54" />
-<Entry Label="No.55" Value="55" />
-<Entry Label="No.56" Value="56" />
-<Entry Label="No.57" Value="57" />
-<Entry Label="No.58" Value="58" />
-<Entry Label="No.59" Value="59" />
-<Entry Label="No.60" Value="60" />
-<Entry Label="No.61" Value="61" />
-<Entry Label="No.62" Value="62" />
-<Entry Label="No.63" Value="63" />
-<Entry Label="No.64" Value="64" />
-</Table>
 <CCM ID="255" Name="255 Rest (‹x•„)" Color="#6600CC">
 <Data></Data>
 <Memo>‹x•„ ‚Å‚·B
@@ -4094,7 +3539,7 @@ CCM#130 Pitch Bend ‚Ì’l‚ªÅ‘å (+8191 ‚Ü‚½‚Í -8192) ‚ÌŽž‚ÉA‚Ç‚ê‚¾‚¯‰¹’ö‚ð•Ï‰»‚³‚
 ¦ ”¼‰¹‚Æ‚Í—×‚ÌŒ®”Õ (Ëß±ÉÛ°Ù‚Ì1Ï½—×) ‚Ì‚±‚ÆBu—×‚ÌŒ®”Õ‚Ì”¼•ªv ‚Æ‚¢‚¤ˆÓ–¡‚Å‚Í‚È‚¢‚Ì‚Å’ˆÓB(—á‚¦‚ÎAÄÞ‚Ì”¼‰¹ã‚ÍÄÞ”AÐ‚Ì”¼‰¹ã‚ÍÌ§‚Æ‚È‚éB)</Memo>
 </CCM>
 <CCM ID="153" Name="153 GM É°Ä¼ÌÄ" Color="#006600">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Data>@RPN 0 2 #VL #NONE</Data>
 <Memo>[Master Coarse Tuning] 
 Êß°Ä‚Ì‰¹’ö‚ð”¼‰¹’PˆÊ‚Å’²®B
@@ -4332,25 +3777,7 @@ GM ‚Å‚Í‚È‚¢–{—ˆ‚ÌÓ°ÄÞ (GS ‚â XG) ‚ÉØ‚è‘Ö‚í‚éB
 “¯‚¶‰‰‘tî•ñ‚ðÈ—ª‚µ‚Ä—e—Ê‚ðß–ñ‚µ‚½‚èA•Ê‚ÌÎß°Ä‚Ì CH ‚ð‰‰‘t‚³‚¹‚½‚èo—ˆ‚Ü‚·B</Memo>
 </CCM>
 <CCM ID="212" Name="212 GS Ú²Ô° G ¨ V" Color="#0000FF">
-<Value Default="1" Min="1" Max="17" Offset="-1" Name="CH ‚ðÝ’è">
-<Entry Label="CH01" Value="1" />
-<Entry Label="CH02" Value="2" />
-<Entry Label="CH03" Value="3" />
-<Entry Label="CH04" Value="4" />
-<Entry Label="CH05" Value="5" />
-<Entry Label="CH06" Value="6" />
-<Entry Label="CH07" Value="7" />
-<Entry Label="CH08" Value="8" />
-<Entry Label="CH09" Value="9" />
-<Entry Label="CH10" Value="10" />
-<Entry Label="CH11" Value="11" />
-<Entry Label="CH12" Value="12" />
-<Entry Label="CH13" Value="13" />
-<Entry Label="CH14" Value="14" />
-<Entry Label="CH15" Value="15" />
-<Entry Label="CH16" Value="16" />
-<Entry Label=" OFF" Value="17" />
-</Value>
+<Value Default="1" Min="1" Max="17" Offset="-1" TableID="11" Name="CH ‚ðÝ’è" />
 <Gate Default="17" Min="16" Max="31" TableID="12" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 02H #VL ] F7H</Data>
 <Memo>[Rx.Channel] 
@@ -4359,44 +3786,8 @@ Gate ‚ÅŽw’è‚µ‚½ CH ‚ð Value ‚ÅŽw’è‚µ‚½ CH ‚É Ú²Ô° ‚·‚éB(‚±‚Ì“ú–{Œê‚ ‚Á‚Ä‚é‚©‚È
 ¦ MSGS ‚ð‘ÎÛ‚É‚·‚éê‡‚ÍŽg—p•s‰Â (Value ‚ÌŽw’è‚ª½ÞÚ‚Ä‚¢‚é‚½‚ß)B</Memo>
 </CCM>
 <CCM ID="213" Name="213 GS Ú²Ô° Port" Color="#0000FF">
-<Value Max="1" Name="Port ‚ðÝ’è">
-<Entry Label="Port A" Value="0" />
-<Entry Label="Port B" Value="1" />
-</Value>
-<Gate Default="17" Max="31" Name="CH ‚ð‘I‘ð">
-<Entry Label="A 01" Value="1" />
-<Entry Label="A 02" Value="2" />
-<Entry Label="A 03" Value="3" />
-<Entry Label="A 04" Value="4" />
-<Entry Label="A 05" Value="5" />
-<Entry Label="A 06" Value="6" />
-<Entry Label="A 07" Value="7" />
-<Entry Label="A 08" Value="8" />
-<Entry Label="A 09" Value="9" />
-<Entry Label="A 10" Value="0" />
-<Entry Label="A 11" Value="10" />
-<Entry Label="A 12" Value="11" />
-<Entry Label="A 13" Value="12" />
-<Entry Label="A 14" Value="13" />
-<Entry Label="A 15" Value="14" />
-<Entry Label="A 16" Value="15" />
-<Entry Label="B 01" Value="17" />
-<Entry Label="B 02" Value="18" />
-<Entry Label="B 03" Value="19" />
-<Entry Label="B 04" Value="20" />
-<Entry Label="B 05" Value="21" />
-<Entry Label="B 06" Value="22" />
-<Entry Label="B 07" Value="23" />
-<Entry Label="B 08" Value="24" />
-<Entry Label="B 09" Value="25" />
-<Entry Label="B 10" Value="16" />
-<Entry Label="B 11" Value="26" />
-<Entry Label="B 12" Value="27" />
-<Entry Label="B 13" Value="28" />
-<Entry Label="B 14" Value="29" />
-<Entry Label="B 15" Value="30" />
-<Entry Label="B 16" Value="31" />
-</Gate>
+<Value Max="1" TableID="8" Name="Port ‚ðÝ’è" />
+<Gate Default="17" Max="31" TableID="9" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 00H 01H #GL #VL ] F7H</Data>
 <Memo>[Channel Msg Rx Port] 
 CH ‚Ì Port ‚Ì‘®«‚ð•ÏXB
@@ -4464,7 +3855,7 @@ CCM#131 GM Master Volume ‚Æ˜A“®‚·‚é‚Ì‚ÅA’Êí‚Í CCM#131 ‚Ì•û‚ðŽg—p‚·‚éB</Memo>
 }100.0 ¾ÝÄ ‚Ì”ÍˆÍ‚ÅÝ’èB</Memo>
 </CCM>
 <CCM ID="303" Name="303 GS Master Key-Shift" Color="#006600">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 00H 05H #VL ] F7H</Data>
 <Memo>[Master Key-Shift] 
 ‘S‘Ì‚ÌÉ°Ä¼ÌÄB</Memo>
@@ -4694,7 +4085,7 @@ Velocity ‚Ì‰¹—ÊŠî€B</Memo>
 ‚Ü‚½AÚ²Ô°Žg—pŽž‚É•Ð•û‚Ì CH ‚Ì‚Ý‰¹’ö‚ð—h‚ç‚·A‚Æ‚¢‚¤‚æ‚¤‚ÈŽg‚¢•û‚ào—ˆ‚Ü‚·B</Memo>
 </CCM>
 <CCM ID="336" Name="336 Mod Ëß¯Á•" Color="#0000CC">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 00H #VL ] F7H</Data>
 <Memo>[Mod Pitch Control] 
@@ -4780,7 +4171,7 @@ LFO2 ‚Ì‰¹—Ê‚Ì—h‚ê‚Ì[‚³B</Memo>
 ‚Ü‚½AÚ²Ô°Žg—pŽž‚É•Ð•û‚Ì CH ‚Ì‚Ý‰¹’ö‚ð•Ï‰»‚³‚¹‚éA‚Æ‚¢‚¤‚æ‚¤‚ÈŽg‚¢•û‚ào—ˆ‚Ü‚·B</Memo>
 </CCM>
 <CCM ID="347" Name="347 PB Ëß¯Á•" Color="#800000">
-<Value Default="66" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="66" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 10H #VL ] F7H</Data>
 <Memo>[PB Pitch Control] 
@@ -4866,7 +4257,7 @@ LFO2 ‚Ì‰¹—Ê‚Ì—h‚ê‚Ì[‚³B</Memo>
 ‚Ü‚½AÚ²Ô°Žg—pŽž‚É•Ð•û‚Ì CH ‚Ì‚Ý‰¹—Ê‚ð—h‚ç‚·A‚Æ‚¢‚¤‚æ‚¤‚ÈŽg‚¢•û‚ào—ˆ‚Ü‚·B</Memo>
 </CCM>
 <CCM ID="358" Name="358 CAT Ëß¯Á•" Color="#660000">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 20H #VL ] F7H</Data>
 <Memo>[CAT Pitch Control] 
@@ -4952,7 +4343,7 @@ LFO2 ‚Ì‰¹—Ê‚Ì—h‚ê‚Ì[‚³B</Memo>
 ‚Ü‚½AÚ²Ô°Žg—pŽž‚É•Ð•û‚Ì CH ‚Ì‚Ý‰¹’ö‚ð•Ï‰»‚³‚¹‚éA‚Æ‚¢‚¤‚æ‚¤‚ÈŽg‚¢•û‚ào—ˆ‚Ü‚·B</Memo>
 </CCM>
 <CCM ID="369" Name="369 PAT Ëß¯Á•" Color="#440000">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 30H #VL ] F7H</Data>
 <Memo>[PAT Pitch Control] 
@@ -5046,7 +4437,7 @@ CC1 ‚ð’S“–‚·‚é CC# ‚ðÝ’èB
 ÃÞÌ«ÙÄ‚Å‚Í CC#16B</Memo>
 </CCM>
 <CCM ID="381" Name="381 CC1 Ëß¯Á•" Color="#006666">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 40H #VL ] F7H</Data>
 <Memo>[CC1 Pitch Control] 
@@ -5140,7 +4531,7 @@ CC2 ‚ð’S“–‚·‚é CC# ‚ðÝ’èB
 ÃÞÌ«ÙÄ‚Å‚Í CC#17B</Memo>
 </CCM>
 <CCM ID="393" Name="393 CC2 Ëß¯Á•" Color="#0066CC">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="33" Min="32" Max="47" TableID="13" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 50H #VL ] F7H</Data>
 <Memo>[CC2 Pitch Control] 
@@ -5277,7 +4668,7 @@ CC#7 VolumeB
 ‰¹—ÊB</Memo>
 </CCM>
 <CCM ID="410" Name="410 Panpot" Color="#CC0099">
-<Value TableID="5" />
+<Value Default="64" TableID="5" />
 <Gate Default="17" Min="16" Max="31" TableID="12" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 1CH #VL ] F7H</Data>
 <Memo>[Part Panpot] 
@@ -5415,7 +4806,7 @@ CC#126 MONOACC#127 POLYB
 </Memo>
 </CCM>
 <CCM ID="424" Name="424 Pitch Key Shift" Color="#006600">
-<Value Default="64" Min="40" Max="88" TableID="7" Name="”¼‰¹" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="”¼‰¹" />
 <Gate Default="17" Min="16" Max="31" TableID="12" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 16H #VL ] F7H</Data>
 <Memo>[Pitch Key Shift] 
@@ -6523,7 +5914,7 @@ ON ‚É‚µ‚½ CH ‚É‹¤’Ê‚ÌÝ’è‚Å EQ ‚ªŠ|‚©‚è‚Ü‚·B</Memo>
 EQ Low ‚ÌŽü”g”B</Memo>
 </CCM>
 <CCM ID="521" Name="521 EQ L-G" Color="#FF3366">
-<Value Default="64" Min="52" Max="76" TableID="9" Name="dB" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="dB" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 02H 01H #VL ] F7H</Data>
 <Memo>[EQ Low Gain (²º×²»Þ°¥Û°¥¹Þ²Ý)] 
 EQ Low ‚Ì‘Œ¸—ÊB
@@ -6536,7 +5927,7 @@ EQ Low ‚Ì‘Œ¸—ÊB
 EQ High ‚ÌŽü”g”B</Memo>
 </CCM>
 <CCM ID="523" Name="523 EQ H-G" Color="#FF3366">
-<Value Default="64" Min="52" Max="76" TableID="9" Name="dB" />
+<Value Default="64" Min="1" Max="127" TableID="6" Name="dB" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 02H 03H #VL ] F7H</Data>
 <Memo>[EQ High Gain (²º×²»Þ°¥Ê²¥¹Þ²Ý)] 
 EQ High ‚Ì‘Œ¸—ÊB
@@ -6755,7 +6146,7 @@ EFXÊß°Ä‚Ì EQ ‚Ì ON / OFF Ý’èB</Memo>
 ’áˆæ‚ÌŠî€Žü”g”B</Memo>
 </CCM>
 <CCM ID="595" Name="EFX:P   Low Gain" Color="#000000">
-<Value Default="69" Min="52" Max="76" TableID="9" />
+<Value Default="69" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 04H #VL ] F7H</Data>
 <Memo>[Low Gain (Û°¥¹Þ²Ý)] 
 ’áˆæ‚Ì‘Œ¸—ÊB
@@ -6768,7 +6159,7 @@ EFXÊß°Ä‚Ì EQ ‚Ì ON / OFF Ý’èB</Memo>
 ‚ˆæ‚ÌŠî€Žü”g”B</Memo>
 </CCM>
 <CCM ID="669" Name="EFX:P   Hi Gain" Color="#000000">
-<Value Default="52" Min="52" Max="76" TableID="9" />
+<Value Default="52" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 06H #VL ] F7H</Data>
 <Memo>[Hi Gain (Ê²¥¹Þ²Ý)] 
 ‚ˆæ‚Ì‘Œ¸—ÊB
@@ -6781,7 +6172,7 @@ EFXÊß°Ä‚Ì EQ ‚Ì ON / OFF Ý’èB</Memo>
 Ð¯ÄÞ1(’†ˆæ1)‚ÌŠî€Žü”g”B</Memo>
 </CCM>
 <CCM ID="751" Name="EFX:P   M1 Gain" Color="#000000">
-<Value Default="72" Min="52" Max="76" TableID="9" />
+<Value Default="72" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 09H #VL ] F7H</Data>
 <Memo>[M1 Gain (Ð¯ÄÞ1 ¹Þ²Ý)] 
 Ð¯ÄÞ1 ‚Ì‘Œ¸—ÊB
@@ -6801,7 +6192,7 @@ M1 Freq ‚Ì’l‚ð’†S‚É‚µ‚½¹Þ²Ý‚Ì•Ï‰»”ÍˆÍB
 Ð¯ÄÞ2(’†ˆæ2)‚ÌŠî€Žü”g”B</Memo>
 </CCM>
 <CCM ID="811" Name="EFX:P   M2 Gain" Color="#000000">
-<Value Default="56" Min="52" Max="76" TableID="9" />
+<Value Default="56" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0CH #VL ] F7H</Data>
 <Memo>[M2 Gain (Ð¯ÄÞ2 ¹Þ²Ý)] 
 Ð¯ÄÞ2 ‚Ì‘Œ¸—ÊB
@@ -6824,7 +6215,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 <Folder Name="02 Spectrum (½Íß¸Ä×Ñ)">
 <Memo>“Á’è‚ÌŽü”g”‚ÌÚÍÞÙ‚ð‘Œ¸B</Memo>
 <CCM ID="556" Name="EFX:P   Band 1  250Hz" Color="#000000">
-<Value Default="60" Min="52" Max="76" TableID="9" />
+<Value Default="60" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="250Hz" Value="0" />
 </Gate>
@@ -6834,7 +6225,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="596" Name="EFX:P   Band 2  500Hz" Color="#000000">
-<Value Default="65" Min="52" Max="76" TableID="9" />
+<Value Default="65" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="500Hz" Value="0" />
 </Gate>
@@ -6844,7 +6235,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="635" Name="EFX:P   Band 3 1000Hz" Color="#000000">
-<Value Default="67" Min="52" Max="76" TableID="9" />
+<Value Default="67" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="1000Hz" Value="0" />
 </Gate>
@@ -6854,7 +6245,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="670" Name="EFX:P   Band 4 1250Hz" Color="#000000">
-<Value Default="70" Min="52" Max="76" TableID="9" />
+<Value Default="70" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="1250Hz" Value="0" />
 </Gate>
@@ -6864,7 +6255,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="700" Name="EFX:P   Band 5 2000Hz" Color="#000000">
-<Value Default="66" Min="52" Max="76" TableID="9" />
+<Value Default="66" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="2000Hz" Value="0" />
 </Gate>
@@ -6874,7 +6265,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="725" Name="EFX:P   Band 6 3150Hz" Color="#000000">
-<Value Default="63" Min="52" Max="76" TableID="9" />
+<Value Default="63" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="3150Hz" Value="0" />
 </Gate>
@@ -6884,7 +6275,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="752" Name="EFX:P   Band 7 4000Hz" Color="#000000">
-<Value Default="60" Min="52" Max="76" TableID="9" />
+<Value Default="60" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="4000Hz" Value="0" />
 </Gate>
@@ -6894,7 +6285,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="774" Name="EFX:P   Band 8 8000Hz" Color="#000000">
-<Value Default="59" Min="52" Max="76" TableID="9" />
+<Value Default="59" Min="1" Max="127" TableID="6" />
 <Gate>
 <Entry Label="8000Hz" Value="0" />
 </Gate>
@@ -6941,7 +6332,7 @@ EFX ‚Ì‰¹—ÊB</Memo>
 </CCM>
 <CCMLink ID="884" Value="67" />
 <CCM ID="895" Name="EFX:P   Hi Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 14H #VL ] F7H</Data>
 <Memo>[Hi Gain (Ê²¥¹Þ²Ý)] 
 ‚ˆæ‚Ì‘Œ¸—ÊB
@@ -6982,7 +6373,7 @@ Vowel ‚ÅÝ’è‚µ‚½‰¹‚ÖˆÚ‚è•Ï‚í‚éŽžŠÔ(‘¬“x)B
 ’l‚ð¬‚³‚­‚·‚é‚Ù‚ÇŽžŠÔ‚ªŠ|‚©‚éB</Memo>
 </CCM>
 <CCM ID="884" Name="EFX:P   Low Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 13H #VL ] F7H</Data>
 <Memo>[Low Gain (Û°¥¹Þ²Ý)] 
 ’áˆæ‚Ì‘Œ¸—ÊB
@@ -8492,7 +7883,7 @@ Amp Type ‚Ì ON / OFFB</Memo>
 µ°ÊÞ°ÄÞ×²ÌÞ‚Ì ON / OFFB</Memo>
 </CCM>
 <CCM ID="661" Name="EFX:P   EQ L Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 05H #VL ] F7H</Data>
 <Memo>[EQ L Gain (EQ Û°¥¹Þ²Ý)] 
 EQ ‚Ì’áˆæ‚Ì‘Œ¸—ÊB
@@ -8512,14 +7903,14 @@ EQ M Fq ‚Ì’l‚ð’†S‚É‚µ‚½¹Þ²Ý‚Ì•Ï‰»”ÍˆÍB
 ’l‚ð‘å‚«‚­‚·‚é‚Ù‚Ç‹·‚­‚È‚éB</Memo>
 </CCM>
 <CCM ID="742" Name="EFX:P   EQ M Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 08H #VL ] F7H</Data>
 <Memo>[EQ M Gain (EQ Ð¯ÄÞ¥¹Þ²Ý)] 
 EQ M ‚Ì‘Œ¸—ÊB
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="764" Name="EFX:P   EQ H Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 09H #VL ] F7H</Data>
 <Memo>[EQ H Gain (EQ Ê²¥¹Þ²Ý)] 
 EQ ‚Ì‚ˆæ‚Ì‘Œ¸—ÊB
@@ -8643,14 +8034,14 @@ Overdrive or DistortionB</Memo>
 Amp Type ‚Ì ON / OFFB</Memo>
 </CCM>
 <CCM ID="801" Name="EFX:P   OD L Gain" Color="#000000">
-<Value Default="69" Min="52" Max="76" TableID="9" />
+<Value Default="69" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0BH #VL ] F7H</Data>
 <Memo>[OD L Gain (OD Û°¥¹Þ²Ý)] 
 ’áˆæ‚Ì‘Œ¸—ÊB
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="819" Name="EFX:P   OD H Gain" Color="#000000">
-<Value Default="74" Min="52" Max="76" TableID="9" />
+<Value Default="74" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0CH #VL ] F7H</Data>
 <Memo>[OD H Gain (OD Ê²¥¹Þ²Ý)] 
 ‚ˆæ‚Ì‘Œ¸—ÊB
@@ -8731,7 +8122,7 @@ CF ‚Ì‰¹—ÊB</Memo>
 OD ‚Ì ON / OFFB</Memo>
 </CCM>
 <CCM ID="820" Name="EFX:P   EQ L Gain" Color="#000000">
-<Value Default="76" Min="52" Max="76" TableID="9" />
+<Value Default="76" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0CH #VL ] F7H</Data>
 <Memo>[EQ L Gain (EQ Û°¥¹Þ²Ý)] 
 EQ ‚Ì’áˆæ‚Ì‘Œ¸—ÊB
@@ -8751,14 +8142,14 @@ EQ M Fq ‚Ì’l‚ð’†S‚É‚µ‚½¹Þ²Ý‚Ì•Ï‰»”ÍˆÍB
 ’l‚ð‘å‚«‚­‚·‚é‚Ù‚Ç‹·‚­‚È‚éB</Memo>
 </CCM>
 <CCM ID="849" Name="EFX:P   EQ M Gain" Color="#000000">
-<Value Default="69" Min="52" Max="76" TableID="9" />
+<Value Default="69" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0FH #VL ] F7H</Data>
 <Memo>[EQ M Gain (EQ Ð¯ÄÞ¥¹Þ²Ý)] 
 EQ M ‚Ì‘Œ¸—ÊB
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="856" Name="EFX:P   EQ H Gain" Color="#000000">
-<Value Default="54" Min="52" Max="76" TableID="9" />
+<Value Default="54" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 10H #VL ] F7H</Data>
 <Memo>[EQ H Gain (EQ Ê²¥¹Þ²Ý)] 
 EQ ‚Ì‚ˆæ‚Ì‘Œ¸—ÊB
@@ -8861,7 +8252,7 @@ CF ‚Ì‰¹—ÊB</Memo>
 <CCMLink ID="662" Value="75" />
 <CCMLink ID="692" />
 <CCM ID="720" Name="EFX:P   EQ L Gain" Color="#000000">
-<Value Default="76" Min="52" Max="76" TableID="9" />
+<Value Default="76" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 07H #VL ] F7H</Data>
 <Memo>[EQ L Gain (EQ Û°¥¹Þ²Ý)] 
 EQ ‚Ì’áˆæ‚Ì‘Œ¸—ÊB
@@ -8881,14 +8272,14 @@ EQ M Fq ‚Ì’l‚ð’†S‚É‚µ‚½¹Þ²Ý‚Ì•Ï‰»”ÍˆÍB
 ’l‚ð‘å‚«‚­‚·‚é‚Ù‚Ç‹·‚­‚È‚éB</Memo>
 </CCM>
 <CCM ID="785" Name="EFX:P   EQ M Gain" Color="#000000">
-<Value Default="69" Min="52" Max="76" TableID="9" />
+<Value Default="69" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0AH #VL ] F7H</Data>
 <Memo>[EQ M Gain (EQ Ð¯ÄÞ¥¹Þ²Ý)] 
 EQ M ‚Ì‘Œ¸—ÊB
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="803" Name="EFX:P   EQ H Gain" Color="#000000">
-<Value Default="52" Min="52" Max="76" TableID="9" />
+<Value Default="52" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0BH #VL ] F7H</Data>
 <Memo>[EQ H Gain (EQ Ê²¥¹Þ²Ý)] 
 EQ ‚Ì‚ˆæ‚Ì‘Œ¸—ÊB
@@ -8995,7 +8386,7 @@ CF ‚Ì‰¹—ÊB</Memo>
 µ°Ä¥Ü³‚Ì ON / OFFB</Memo>
 </CCM>
 <CCM ID="767" Name="EFX:P   EQ L Gain" Color="#000000">
-<Value Default="76" Min="52" Max="76" TableID="9" />
+<Value Default="76" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 09H #VL ] F7H</Data>
 <Memo>[EQ L Gain (EQ Û°¥¹Þ²Ý)] 
 EQ ‚Ì’áˆæ‚Ì‘Œ¸—ÊB
@@ -9015,14 +8406,14 @@ EQ M Fq ‚Ì’l‚ð’†S‚É‚µ‚½¹Þ²Ý‚Ì•Ï‰»”ÍˆÍB
 ’l‚ð‘å‚«‚­‚·‚é‚Ù‚Ç‹·‚­‚È‚éB</Memo>
 </CCM>
 <CCM ID="822" Name="EFX:P   EQ M Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0CH #VL ] F7H</Data>
 <Memo>[EQ M Gain (EQ Ð¯ÄÞ¥¹Þ²Ý)] 
 EQ M ‚Ì‘Œ¸—ÊB
 64 ‚ðŠî“_‚Æ‚µ‚Ä‘Œ¸B</Memo>
 </CCM>
 <CCM ID="834" Name="EFX:P   EQ H Gain" Color="#000000">
-<Value Default="64" Min="52" Max="76" TableID="9" />
+<Value Default="64" Min="1" Max="127" TableID="6" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 03H 0DH #VL ] F7H</Data>
 <Memo>[EQ H Gain (EQ Ê²¥¹Þ²Ý)] 
 EQ ‚Ì‚ˆæ‚Ì‘Œ¸—ÊB
