@@ -5062,8 +5062,8 @@ CCM#393-403 CC2 Control ‚ÅŒø‰Ê‚ðÝ’è‚·‚éB</Memo>
 <Folder Name="RPNANRPN (101A100A6A38A99A98)">
 <CCM ID="101" Name="101 RPN MSB" Color="#006600">
 <Value>
-<Entry Label="  0     RPN" Value="0" />
-<Entry Label="127    Null" Value="127" />
+<Entry Label=" RPN" Value="0" />
+<Entry Label="Null" Value="127" />
 </Value>
 <Data>@CC 101 #VL</Data>
 <Memo>RPN ‚ÌÝ’è‚ÉŽg—pB
@@ -5072,11 +5072,11 @@ CC#101 ‚Æ CC#100 ‚Ì‘g‚Ý‡‚í‚¹‚Å‹@”\‚ð‘I‘ð‚µACC#6 (‚Æ CC#38) ‚ÅŒø‰Ê—Ê‚ðÝ’è‚·‚é
 </CCM>
 <CCM ID="100" Name="100 RPN LSB" Color="#003300">
 <Value>
-<Entry Label="  0 ÍÞÝÄÞ•" Value="0" />
-<Entry Label="  1  ”÷’²®" Value="1" />
-<Entry Label="  2  É°Ä¼ÌÄ" Value="2" />
-<Entry Label="  5 ModÚÝ¼Þ" Value="5" />
-<Entry Label="127    Null" Value="127" />
+<Entry Label="ÍÞÝÄÞ•" Value="0" />
+<Entry Label=" ”÷’²®" Value="1" />
+<Entry Label=" É°Ä¼ÌÄ" Value="2" />
+<Entry Label="ModÚÝ¼Þ" Value="5" />
+<Entry Label="   Null" Value="127" />
 </Value>
 <Data>@CC 100 #VL</Data>
 <Memo>RPN ‚ÌÝ’è‚ÉŽg—pB
@@ -5105,13 +5105,13 @@ CC#101 ‚Æ CC#100 ‚Ì‘g‚Ý‡‚í‚¹‚Å‹@”\‚ð‘I‘ð‚µACC#6 ‚Æ CC#38 ‚ÅŒø‰Ê—Ê‚ðÝ’è‚·‚éB<
 </CCM>
 <CCM ID="99" Name="099 NRPN MSB" Color="#003399">
 <Value Default="1">
-<Entry Label="  1      NRPN" Value="1" />
-<Entry Label=" 24 Dr: Ëß¯ÁC" Value="24" />
-<Entry Label=" 26 Dr: Level" Value="26" />
-<Entry Label=" 28 Dr:Panpot" Value="28" />
-<Entry Label=" 29 Dr:Reverb" Value="29" />
-<Entry Label=" 30 Dr:Chorus" Value="30" />
-<Entry Label=" 31  Dr:Delay" Value="31" />
+<Entry Label="     NRPN" Value="1" />
+<Entry Label="Dr: Ëß¯ÁC" Value="24" />
+<Entry Label="Dr: Level" Value="26" />
+<Entry Label="Dr:Panpot" Value="28" />
+<Entry Label="Dr:Reverb" Value="29" />
+<Entry Label="Dr:Chorus" Value="30" />
+<Entry Label=" Dr:Delay" Value="31" />
 </Value>
 <Gate Max="128" Name="dummy">
 <Entry Label="-------" Value="0" />
@@ -5155,14 +5155,14 @@ CC#99 ‚Æ CC#98 ‚Ì‘g‚Ý‡‚í‚¹‚Å‹@”\‚ð‘I‘ð‚µACC#6 ‚ÅŒø‰Ê—Ê‚ðÝ’è‚·‚éB
 <Folder Name="ƒXƒCƒbƒ`—Þ (120A121A123A126A127A96A97A124A125)">
 <CCM ID="120" Name="120 All Sound Off" Color="#333333">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 120 #VL</Data>
 <Memo>”­‰¹’†‚Ì‰¹‚ð’âŽ~‚³‚¹‚éB</Memo>
 </CCM>
 <CCM ID="121" Name="121 Reset All Controller" Color="#333333">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 121 #VL</Data>
 <Memo>“Á’è‚Ì€–Ú‚ÉØ¾¯Ä‚ðŠ|‚¯‚éB
@@ -5184,7 +5184,7 @@ NRPN</Memo>
 </CCM>
 <CCM ID="123" Name="123 All Note Off" Color="#333333">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 123 #VL</Data>
 <Memo>É°ÄµÌ‚ðŽÀs‚·‚éB
@@ -5192,7 +5192,7 @@ NRPN</Memo>
 </CCM>
 <CCM ID="126" Name="126 MONO" Color="#333333">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 126 #VL</Data>
 <Memo>˜a‰¹‚ð–Â‚ç‚¹‚È‚¢ ÓÉ×ÙÓ°ÄÞ ‚É‚·‚éB
@@ -5201,7 +5201,7 @@ NRPN</Memo>
 </CCM>
 <CCM ID="127" Name="127 POLY" Color="#333333">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 127 #VL</Data>
 <Memo>˜a‰¹‚ð–Â‚ç‚¹‚é‚æ‚¤‚É‚·‚éB
@@ -5209,7 +5209,7 @@ NRPN</Memo>
 </CCM>
 <CCM ID="96" Name="096 Data Increment" Color="#006600">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 96 #VL</Data>
 <Memo>RPN ‚Ì’l‚É u+1v ‚·‚éB
@@ -5218,7 +5218,7 @@ NRPN</Memo>
 </CCM>
 <CCM ID="97" Name="097 Data Decrement" Color="#006600">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 97 #VL</Data>
 <Memo>RPN ‚Ì’l‚É u-1v ‚·‚éB
@@ -5227,14 +5227,14 @@ NRPN</Memo>
 </CCM>
 <CCM ID="124" Name="124 OMNI OFF" Color="#CC0000">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 124 #VL</Data>
 <Memo>Œø‰Ê‚Í CC#123 All Note Off ‚Æ“¯‚¶‚¾‚ªA‚±‚¿‚ç‚ÍŽg‚¤‚×‚«‚Å‚Í‚È‚¢B</Memo>
 </CCM>
 <CCM ID="125" Name="125 OMNI ON" Color="#CC0000">
 <Value>
-<Entry Label="  0   ON" Value="0" />
+<Entry Label="ON" Value="0" />
 </Value>
 <Data>@CC 125 #VL</Data>
 <Memo>Œø‰Ê‚Í CC#123 All Note Off ‚Æ“¯‚¶‚¾‚ªA‚±‚¿‚ç‚ÍŽg‚¤‚×‚«‚Å‚Í‚È‚¢B</Memo>
@@ -5484,8 +5484,8 @@ GS ‚Ì‰Šú‰»Ò¯¾°¼ÞB
 </CCM>
 <CCM ID="142" Name="142 ¼½ÃÑÓ°ÄÞ¾¯Ä" Color="#0000FF">
 <Value Max="1">
-<Entry Label="0  Single" Value="0" />
-<Entry Label="1  Double" Value="1" />
+<Entry Label="Single" Value="0" />
+<Entry Label="Double" Value="1" />
 </Value>
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 00H 00H 7FH #VL ] F7H</Data>
 <Memo>[System Mode Set] 
@@ -5499,8 +5499,8 @@ XG ‚Ì‰Šú‰»Ò¯¾°¼ÞB</Memo>
 </CCM>
 <CCM ID="145" Name="145 XG Map Select" Color="#FF3366">
 <Value Default="1" Max="1">
-<Entry Label="0   Basic" Value="0" />
-<Entry Label="1  Native" Value="1" />
+<Entry Label=" Basic" Value="0" />
+<Entry Label="Native" Value="1" />
 </Value>
 <Data>@SYSEX F0H 43H 10H 49H 00H 00H 12H #VL F7H</Data>
 <Memo>[Voice Map] XG‰¹Œ¹‚Ì GM MAP ‚ðØ‚è‘Ö‚¦‚éB
@@ -5535,9 +5535,9 @@ GM ‚Å‚Í‚È‚¢–{—ˆ‚ÌÓ°ÄÞ (GS ‚â XG) ‚ÉØ‚è‘Ö‚í‚éB
 </CCM>
 <CCM ID="201" Name="201 GS ÄÞ×Ñ’Ç‰Á" Color="#0000FF">
 <Value Default="2" Max="2" Name="Ó°ÄÞ‚ðÝ’è">
-<Entry Label="0  Melody" Value="0" />
-<Entry Label="1  Drum 1" Value="1" />
-<Entry Label="2  Drum 2" Value="2" />
+<Entry Label="Melody" Value="0" />
+<Entry Label="Drum 1" Value="1" />
+<Entry Label="Drum 2" Value="2" />
 </Value>
 <Gate Default="26" Min="16" Max="31" TableID="12" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 15H #VL ] F7H</Data>
@@ -6674,9 +6674,9 @@ CC#126 MONOACC#127 POLYB
 </CCM>
 <CCM ID="428" Name="428 “¯Žž”­‰¹”§ŒÀ" Color="#CC6699">
 <Value Default="1" Max="2">
-<Entry Label="0     Single" Value="0" />
-<Entry Label="1  Limited-M" Value="1" />
-<Entry Label="2     Full-M" Value="2" />
+<Entry Label="   Single" Value="0" />
+<Entry Label="Limited-M" Value="1" />
+<Entry Label="   Full-M" Value="2" />
 </Value>
 <Gate Default="17" Min="16" Max="31" TableID="12" Name="CH ‚ð‘I‘ð" />
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H #GL 14H #VL ] F7H</Data>
@@ -7295,14 +7295,14 @@ Reverb ‚ÌŽí—ÞB</Memo>
 ‚«‚ê‚Ì—Ç‚¢L‚ª‚è‚Ì‚ ‚éŽc‹¿B</Memo>
 <CCM ID="495" Name="495 Reverb Character" Color="#006666">
 <Value Max="7">
-<Entry Label="0  Reverb" Value="0" />
-<Entry Label="1  Reverb" Value="1" />
-<Entry Label="2  Reverb" Value="2" />
-<Entry Label="3  Reverb" Value="3" />
-<Entry Label="4  Reverb" Value="4" />
-<Entry Label="5  Reverb" Value="5" />
-<Entry Label="6   Delay" Value="6" />
-<Entry Label="7   Delay" Value="7" />
+<Entry Label="Reverb" Value="0" />
+<Entry Label="Reverb" Value="1" />
+<Entry Label="Reverb" Value="2" />
+<Entry Label="Reverb" Value="3" />
+<Entry Label="Reverb" Value="4" />
+<Entry Label="Reverb" Value="5" />
+<Entry Label=" Delay" Value="6" />
+<Entry Label=" Delay" Value="7" />
 </Value>
 <Data>@SYSEX F0H 41H 10H 42H 12H [ 40H 01H 31H #VL ] F7H</Data>
 <Memo>[Reverb Character (ØÊÞ°ÌÞ¥·¬×¸À°)] 
